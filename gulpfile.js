@@ -15,15 +15,19 @@ var gulp       = require('gulp'), 
     merge      = require('merge-stream'),
     jshint     = require('gulp-jshint');
 
-    //webserver  = require('gulp-webserver'),
-    //connect    = require('gulp-connect-multi')(),
+    // minifyHTML = require('gulp-minify-html')
+    //webserver  = require('gulp-webserver')
+    //connect    = require('gulp-connect-multi')()
     //stylus     = require('gulp-stylus')
-    //bower      = require('gulp-bower');
+    //bower      = require('gulp-bower')
 
 var config = {
   sassPath: './app/sass',
   bowerDir: './bower_components'
 }
+
+// Dist folder path
+var distFolder = 'dist';
 
 // gulp.task('servidor', connect.server({
 //   root: ['equiparlab'],
@@ -34,10 +38,16 @@ var config = {
 //   }
 // }));
 
-//gulp.task('html', function () {
-  //gulp.src('*.php')
-  //.pipe(connect.reload());
-//});
+// gulp.task('html', function () {
+//     gulp.src('*.php')
+//     .pipe(connect.reload());
+// });
+
+// gulp.task('html', function () {
+//     return gulp.src('*.php')
+//         .pipe(minifyHTML({empty: true}))
+//         .pipe(gulp.dest(distFolder));
+// });
 
 // gulp.task('bower', function () {
 //   return bower()
