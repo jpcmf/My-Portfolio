@@ -20,8 +20,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <title>João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba</title>
-    <meta name="keywords" content="desenvolvedor, front-end, fricks, joão paulo, freelancer, programador, interface, web, portfolio, front, end" />
-    <meta name="description" content="Portfolio de João Paulo Fricks, Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
+    <meta name="keywords" content="desenvolvedor front-end, joão paulo fricks, freelancer, programador, interface, web, portfolio, front end, curitiba, parana, brasil" />
+    <meta name="description" content="Portfolio de João Paulo Fricks. Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
 
     <!-- google -->
     <meta name="google-site-verification" content="BuuNIbzIxyitMc69-xgr7c-oIM3u05CpaWLfSuizcA8" />
@@ -32,21 +32,21 @@
     <!-- twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="http://www.fricks.com.br">
-    <meta name="twitter:title" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico Freelancer | Curitiba">
-    <meta name="twitter:description" content="Portfolio de João Paulo Fricks, Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
+    <meta name="twitter:title" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba">
+    <meta name="twitter:description" content="Portfolio de João Paulo Fricks. Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
     <meta name="twitter:image" content="http://www.fricks.com.br/img500x500.png">
 
     <!-- facebook -->
     <meta property="fb:admins" content="" />
     <meta property="og:url" content="http://www.fricks.com.br">
-    <meta property="og:title" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico Freelancer | Curitiba">
+    <meta property="og:title" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba">
     <meta property="og:image" content="http://www.fricks.com.br/img500x500.png">
-    <meta property="og:site_name" content="Joao Paulo Music | joaopaulomusic.com">
-    <meta property="og:description" content="Portfolio de João Paulo Fricks, Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
+    <meta property="og:site_name" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba">
+    <meta property="og:description" content="Portfolio de João Paulo Fricks. Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
 
     <!-- google+ schema.org -->
-    <meta itemprop="name" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico Freelancer | Curitiba"/>
-    <meta itemprop="description" content="Portfolio de João Paulo Fricks, Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
+    <meta itemprop="name" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba"/>
+    <meta itemprop="description" content="Portfolio de João Paulo Fricks. Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
     <meta itemprop="image" content="http://www.fricks.com.br/img500x500.png"/>
 
     <!-- favicon-->
