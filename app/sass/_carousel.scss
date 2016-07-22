@@ -1,0 +1,150 @@
+// SASS do Equiparlab
+// Projeto www.equiparlab.com.br
+// Autor Joao Paulo Fricks
+
+//
+// Carousel
+// --------------------------------------------------
+
+// reset
+.carousel-control.left,
+.carousel-control.right{background-image:none}
+
+// destaque
+.carousel-destaque{height:568px;position:absolute;top:0;width:100%;
+   .item{
+      height:568px;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+   }
+   .carousel-inner{
+      height:568px;
+      //overflow:unset;
+      > .item > img{
+         width:100%;
+         height:auto;
+      }
+      > .item > a > img{
+         display:block;
+         height:auto;
+         max-width:100%;
+      }
+   }
+   .arrow-left,.arrow-right{background:url('../images/sprite-all.png') no-repeat;display:inline-block;height:41px;margin-top:-20px;position:absolute;top:50%;width:41px;}
+   .arrow-left{background-position:0 -115px;margin-left:-15px;left:50%;}
+   .arrow-right{background-position:0 -73px;margin-right:-15px;right:50%;}
+}
+
+// recommend
+.carousel-product{//height:343px;
+   .item{
+      height:350pxs;
+   }
+   .carousel-inner{
+      padding:0 0 25px 0;
+   }
+   .carousel-control{
+      width:auto;
+   }
+   .arrow-left,.arrow-right{background:url('../images/sprite-all.png') no-repeat;display:inline-block;height:54px;margin-top:-15px;position:absolute;top:40%;width:54px;}
+   .arrow-left{background-position:-1px -116px;margin-left:0;left:-70px;}
+   .arrow-right{background-position:-57px -116px;margin-right:0;right:-70px;}
+}
+
+// malaprontinos
+.carousel-malaprontinos{//height:343px;
+   .item{
+      height:268px;
+   }
+   .carousel-inner{
+      padding:0 0 35px 0;
+   }
+   .carousel-control{
+      width:auto;
+   }
+   .arrow-left,.arrow-right{background:url('../images/malapronta/sprite-all.png') no-repeat;display:inline-block;height:54px;margin-top:-15px;position:absolute;top:50%;width:54px;}
+   .arrow-left{background-position:-49px -111px;margin-left:-10px;left:50%;}
+   .arrow-right{background-position:-49px -139px;margin-right:-10px;right:50%;}
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+.carousel {
+  // height: 508px;
+  // margin-bottom: 60px;
+  // position:relative;
+}
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+  // height: 508px;
+  // background-color: red;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+}
+.carousel-inner > .item > img {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  // height:auto;
+  // height: 508px;
+}
+.carousel-inner > .item > a > img {
+   // display:block;
+   // height:auto;
+   // max-width: 100%;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+
+}

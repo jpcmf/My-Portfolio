@@ -1,0 +1,50 @@
+//
+// Footer
+// --------------------------------------------------
+
+footer {
+
+    @extend .hidden-xs;
+
+    height: 80px;
+    padding: 0 30px;
+    width: 100%;
+
+    p {
+        color: $white;
+        float: left;
+        font-weight: 300;
+        line-height: 80px;
+        margin: 0;
+        //text-align:center;
+    }
+
+    ul {
+        float: right;
+        line-height: 80px;
+        margin: 0;
+
+        > li {
+            margin: 0;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            text-align: center;
+
+            a {
+                color: $white;
+
+                &:hover {
+                    color: $white;
+                }
+
+                // i {
+                //     font-size:30px;
+                // }
+
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Portfolio Joao Paulo 2015",
+  "version": "0.0.1",
+  "authors": [
+    "Joao Paulo <jpfricks@gmail.com>"
+  ],
+  "description": "Portfolio Online 2015",
+  "license": "MIT",
+  "homepage": "http://www.fricks.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.3.4",
+    "fontawesome": "~4.3.0",
+    "jasny-bootstrap": "~3.1.3"
+  }
+}

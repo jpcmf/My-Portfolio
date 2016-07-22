@@ -1,0 +1,53 @@
+//
+// Home
+// --------------------------------------------------
+
+.content-home {
+    margin-top: -50px;
+
+    .social-list {
+        display:table;
+        margin:5px auto 0;
+
+        li {
+            padding:0 5px;
+            text-align:center;
+
+            a {
+                @include transition(color .3s ease);
+                color:$white;
+                font-size:25px;
+
+                &:hover {
+                    color:lighten($black,90%);
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media only screen and (min-width : 768px) {
+
+    .content-home {
+
+        .social-list {
+            margin:15px auto 0;
+
+            li {
+                padding:0 15px;
+
+                a {
+                    font-size:40px;
+                }
+
+            }
+            
+        }
+
+    }
+
+}

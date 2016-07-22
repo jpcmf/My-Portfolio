@@ -1,0 +1,23 @@
+// Core variables and mixins
+@import "variables";
+@import "bootstrap/mixins";
+@import "jasny-bootstrap";
+
+// Reset and dependencies
+@import "font-awesome";
+//@import "bootstrap/normalize";
+
+// Estilos Site
+@import "carousel";
+@import "mixins";
+//@import "malapronta-icons";
+//@import "Hover";
+//@import "equiparlab";
+//@import "slick";
+@import "joaopaulo";
+@import "footer";
+@import "home";
+@import "portfolio";
+@import "sobre";
+@import "clientes";
+@import "contato";

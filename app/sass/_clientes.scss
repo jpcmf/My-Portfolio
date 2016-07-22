@@ -1,0 +1,26 @@
+//
+// Clientes
+// --------------------------------------------------
+
+.content-clientes {
+
+    .lista-clientes {
+
+        .block-grid-item {
+
+            height: 255px;
+
+            img {
+                // position: relative;
+                // top: 50%;
+                // transform: translateY(-50%);
+                margin: 0 auto;
+                object-fit: cover;
+                object-position: center;
+            }
+
+        }
+
+    }
+
+}
