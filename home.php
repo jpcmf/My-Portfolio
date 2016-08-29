@@ -5,7 +5,9 @@
             <span class="s-desc">Designer e Desenvolvedor Front End</span>
             <!-- <span class="s-desc">Designer com uma paixão por design e experiências de usuário funcionais.<br>Desenvolvedor Front End concentrado em escrever código limpo, elegante e eficiente</span> -->
         </h1>
-        <a href="mailto:jpfricks@gmail.com?subject=Olá João Paulo Fricks" target="_blank" class="btn bt-hire center-block"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Me contrate</a>
+        <a href="mailto:jpfricks@gmail.com?subject=Olá João Paulo Fricks" class="btn bt-hire center-block">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Me contrate
+        </a>
         <div class="text-center group-skills">
             <span class="label label-skill">HTML</span>
             <span class="label label-skill">CSS</span>
