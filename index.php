@@ -133,7 +133,7 @@
           </div>
       </div> <!-- end -->
       <footer>
-          <p>João Paulo Fricks 2000 - 2016 &copy; <small>|</small> Desenvolvedor Front End <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
+          <p>João Paulo Fricks 2000 - 2016 &copy; <small>|</small> Designer e Desenvolvedor Front End <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
           <ul class="list-inline">
               <?php foreach($array_menu as $key => $value): ?>
                   <?php $current = ($key == $page) ? "

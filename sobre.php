@@ -8,10 +8,7 @@
         <div class="info-sobre">
             <img src="assets/images/profile.png" alt="João Paulo Fricks" class="center-block">
             <p>
-                Olá! Meu nome é João Paulo Fricks, nasci e moro em Curitiba e atualmente estou trabalhando como freelancer. <br><br>
-                Me formei em Design Gráfico na Universidade Positivo em 2006 e me identifiquei muito com o lado digital do Design Gráfico. Cursei dois cursos de pós-graduação, em Design Centrado no Usuário e App Development. Tive a oportunidade de trabalhar com excelentes equipes e profissionais onde desenvolvi inúmeros projetos e com essas experiências pude aprender e aprimorar meus conhecimentos em novas tecnologias e metodologias de desenvolvimento web.<br><br>
-                Minha especialidade é o desenvolvimento Front End, ou seja, trabalhar na camada do client-side dos projetos garantindo compatibilidade cross-browser e cross-plataform baseado em um código limpo, bem documentado e estruturado. <br><br>
-                No meu tempo livre gosto de pesquisar novas tecnologias, ficar com a minha família, jogar video game, escutar ou produzir música e praticar algum esporte.
+                Meu nome é João Paulo Fricks, nasci e moro em Curitiba e sou freelancer. Em 2006 me formei em Design Gráfico na Universidade Positivo. Tenho muito interesse e paixão por design e experiências de usuário funcionais. Já tive a oportunidade de trabalhar em excelentes equipes onde desenvolvi e aprimorei meus conhecimentos em desenvolvimento web. Atualmente meu foco é o desenvolvimento front end. No meu tempo livre gosto de pesquisar novas tecnologias, ficar com a minha família, jogar video game, escutar ou produzir música e praticar algum esporte.
             </p>
             <blockquote>
                 <p>
