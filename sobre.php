@@ -6,7 +6,7 @@
         </h2>
         <hr class="hr-interna">
         <div class="info-sobre">
-            <img src="assets/images/profile.png" alt="João Paulo Fricks" class="center-block">
+            <!-- <img src="assets/images/profile.png" alt="João Paulo Fricks" class="center-block"> -->
             <p>
                 Meu nome é João Paulo Fricks, nasci e moro em Curitiba e sou freelancer. Em 2006 me formei em Design Gráfico na Universidade Positivo. Tenho muito interesse e paixão por design e experiências de usuário funcionais. Já tive a oportunidade de trabalhar em excelentes equipes onde desenvolvi e aprimorei meus conhecimentos em desenvolvimento web. Atualmente meu foco é o desenvolvimento front end. No meu tempo livre gosto de pesquisar novas tecnologias, ficar com a minha família, jogar video game, escutar ou produzir música e praticar algum esporte.
             </p>

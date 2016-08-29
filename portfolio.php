@@ -14,26 +14,23 @@
                         </a>
                     </div>
                     <div class="work-center">
-                        <a class="btn bt-enviar-contato" href="//goo.gl/HS5gYY" target="_blank">Acessar</a>
+                        <a class="btn bt-enviar-contato center-block" href="//goo.gl/HS5gYY" target="_blank">Acessar</a>
+                    </div>
+                    <div class="work-center">
                         <div class="progressBar">
-                            <h4>Projeto</h4>
-                            <p>Colortil</p>
+                            <p>Projeto: Colortil</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Descrição</h4>
                             <p>Site responsivo em Wordpress + WooCommerce para a empresa Colortil líder no mercado de pastilhas de vidro para revestimentos.</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Data de entrega</h4>
-                            <p>Agosto de 2015</p>
+                            <p>Data de entrega: Agosto de 2015</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Desenvolvimento Front End</h4>
-                            <p><a href="index.php?page=contato"><i class="fa fa-envelope-o"></i> João Paulo Fricks</a></p>
+                            <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
                         </div>
                         <div class="progressBar">
-                            <h4>Direção de Arte</h4>
-                            <p><a target="_blank" target="_blank" href="https://www.behance.net/renandesouza"><i class="fa fa-globe"></i> Renan de Souza</a></p>
+                            <p>Direção de Arte: <a target="_blank" target="_blank" href="https://www.behance.net/renandesouza">Renan de Souza&nbsp; <i class="fa fa-globe"></i></a></p>
                         </div>
                     </div>
                 </div>
@@ -46,22 +43,20 @@
                         </a>
                     </div>
                     <div class="work-center">
-                        <a class="btn bt-enviar-contato" href="//goo.gl/r5GRiW" target="_blank">Acessar</a>
+                        <a class="btn bt-enviar-contato center-block" href="//goo.gl/r5GRiW" target="_blank">Acessar</a>
+                    </div>
+                    <div class="work-center">
                         <div class="progressBar">
-                            <h4>Projeto</h4>
-                            <p>Paradise Weekend | Camarote Sapucaí 2014 | Hotel Urbano</p>
+                            <p>Projeto: Paradise Weekend | Camarote Sapucaí 2014 | Hotel Urbano</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Descrição</h4>
                             <p>Site responsivo para o camarote da Paradise Weekend no Carnaval de 2014 no Sambódromo da Marquês de Sapucaí.</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Desenvolvimento Front End</h4>
-                            <p><a href="index.php?page=contato"><i class="fa fa-envelope-o"></i> João Paulo Fricks</a></p>
+                            <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
                         </div>
                         <div class="progressBar">
-                            <h4>Direção de Arte</h4>
-                            <p><a target="_blank" href="https://www.behance.net/renandesouza"><i class="fa fa-globe"></i> Renan de Souza</a></p>
+                            <p>Direção de Arte: <a target="_blank" target="_blank" href="https://www.behance.net/renandesouza">Renan de Souza&nbsp; <i class="fa fa-globe"></i></a></p>
                         </div>
                     </div>
                 </div>
@@ -74,22 +69,20 @@
                         </a>
                     </div>
                     <div class="work-center">
-                        <a class="btn bt-enviar-contato" href="//goo.gl/r5GRiW" target="_blank">Acessar</a>
+                        <a class="btn bt-enviar-contato center-block" href="//goo.gl/r5GRiW" target="_blank">Acessar</a>
+                    </div>
+                    <div class="work-center">
                         <div class="progressBar">
-                            <h4>Projeto</h4>
-                            <p>Paradise Weekend | Camarote Sapucaí 2014 | Hotel Urbano</p>
+                            <p>Projeto: Paradise Weekend | Camarote Sapucaí 2014 | Hotel Urbano</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Descrição</h4>
                             <p>Hotsite responsivo para o camarote da Paradise Weekend no Carnaval de 2014 no Sambódromo da Marquês de Sapucaí.</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Desenvolvimento Front End</h4>
-                            <p><a href="index.php?page=contato"><i class="fa fa-envelope-o"></i> João Paulo Fricks</a></p>
+                            <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
                         </div>
                         <div class="progressBar">
-                            <h4>Direção de Arte</h4>
-                            <p><a target="_blank" href="https://www.behance.net/renandesouza"><i class="fa fa-globe"></i> Renan de Souza</a></p>
+                            <p>Direção de Arte: <a target="_blank" target="_blank" href="https://www.behance.net/renandesouza">Renan de Souza&nbsp; <i class="fa fa-globe"></i></a></p>
                         </div>
                     </div>
                 </div>
@@ -102,23 +95,21 @@
                         </a>
                     </div>
                     <div class="work-center">
-                        <a class="btn bt-enviar-contato" href="//goo.gl/UtjvYv" target="_blank">Acessar</a>
+                        <a class="btn bt-enviar-contato center-block" href="//goo.gl/UtjvYv" target="_blank">Acessar</a>
+                    </div>
+                    <div class="work-center">
                         <div class="progressBar">
-                            <h4>Projeto</h4>
-                            <p>You Move – Curso de Inglês</p>
+                            <p>Projeto: You Move – Curso de Inglês</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Descrição</h4>
                             <p>Site responsivo para o curso de língua inglesa You Move.</p>
                         </div>
 
                         <div class="progressBar">
-                            <h4>Desenvolvimento Front End</h4>
-                            <p><a href="index.php?page=contato"><i class="fa fa-envelope-o"></i> João Paulo Fricks</a></p>
+                            <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
                         </div>
                         <div class="progressBar">
-                            <h4>Direção de Arte</h4>
-                            <p>Yeah!, Ometz Group</p>
+                            <p>Direção de Arte: Yeah!, Ometz Group</p>
                         </div>
                     </div>
                 </div>
@@ -131,22 +122,20 @@
                         </a>
                     </div>
                     <div class="work-center">
-                        <a class="btn bt-enviar-contato" href="//goo.gl/dAchhu" target="_blank">Acessar</a>
+                        <a class="btn bt-enviar-contato center-block" href="//goo.gl/dAchhu" target="_blank">Acessar</a>
+                    </div>
+                    <div class="work-center">
                         <div class="progressBar">
-                            <h4>Projeto</h4>
-                            <p>Paradise Weekend - The Most Exclusive Festival 2013</p>
+                            <p>Projeto: Paradise Weekend - The Most Exclusive Festival 2013</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Descrição</h4>
                             <p>Site responsivo para o evento Paradise Weekend na Costa do Sauípe, Bahia.</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Desenvolvimento Front End</h4>
-                            <p><a href="index.php?page=contato"><i class="fa fa-envelope-o"></i> João Paulo Fricks</a></p>
+                            <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
                         </div>
                         <div class="progressBar">
-                            <h4>Direção de Arte</h4>
-                            <p><a target="_blank" href="https://www.behance.net/renandesouza"><i class="fa fa-globe"></i> Renan de Souza</a></p>
+                            <p>Direção de Arte: <a target="_blank" target="_blank" href="https://www.behance.net/renandesouza">Renan de Souza&nbsp; <i class="fa fa-globe"></i></a></p>
                         </div>
                     </div>
                 </div>
@@ -159,22 +148,20 @@
                         </a>
                     </div>
                     <div class="work-center">
-                        <a class="btn bt-enviar-contato" href="//goo.gl/fXxGDD" target="_blank">Acessar</a>
+                        <a class="btn bt-enviar-contato center-block" href="//goo.gl/fXxGDD" target="_blank">Acessar</a>
+                    </div>
+                    <div class="work-center">
                         <div class="progressBar">
-                            <h4>Projeto</h4>
-                            <p>SOUNDS of Maquinaria</p>
+                            <p>Projeto: SOUNDS of Maquinaria</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Descrição</h4>
                             <p>Site non-responsivo para o festival Sounds Of Maquinaria.</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Desenvolvimento Front End</h4>
-                            <p><a href="index.php?page=contato"><i class="fa fa-envelope-o"></i> João Paulo Fricks</a></p>
+                            <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
                         </div>
                         <div class="progressBar">
-                            <h4>Direção de Arte</h4>
-                            <p><a target="_blank" href="https://www.behance.net/renandesouza"><i class="fa fa-globe"></i> Renan de Souza</a></p>
+                            <p>Direção de Arte: <a target="_blank" target="_blank" href="https://www.behance.net/renandesouza">Renan de Souza&nbsp; <i class="fa fa-globe"></i></a></p>
                         </div>
                     </div>
                 </div>
@@ -187,22 +174,20 @@
                         </a>
                     </div>
                     <div class="work-center">
-                        <a class="btn bt-enviar-contato" href="http://goo.gl/vUfKNd" target="_blank">Acessar</a>
+                        <a class="btn bt-enviar-contato center-block" href="http://goo.gl/vUfKNd" target="_blank">Acessar</a>
+                    </div>
+                    <div class="work-center">
                         <div class="progressBar">
-                            <h4>Projeto</h4>
-                            <p>Ideioteca</p>
+                            <p>Projeto: Ideioteca</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Descrição</h4>
                             <p>Site non-responsivo para a Ideioteca.</p>
                         </div>
                         <div class="progressBar">
-                            <h4>Desenvolvimento Front End</h4>
-                            <p><a href="index.php?page=contato"><i class="fa fa-envelope-o"></i> João Paulo Fricks</a></p>
+                            <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
                         </div>
                         <div class="progressBar">
-                            <h4>Direção de Arte</h4>
-                            <p>Ideioteca</p>
+                            <p>Direção de Arte: Ideioteca</p>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
 
     // monta os menus
   	$array_menu = array(
-        "home" => "Home",
+        // "home" => "Home",
         "sobre" => "Sobre",
         "portfolio" => "Portfolio",
         // "clientes" => "Clientes",
@@ -84,8 +84,8 @@
         <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
             <div class="hide-content">
                 <img src="assets/images/profile.png" alt="João Paulo Fricks" class="">
-                <a class="navmenu-brand" href="index.php?page=sobre">João Paulo Fricks</a>
-                <p>Desenvolvedor Front End</p>
+                <a class="navmenu-brand" href="index.php">João Paulo Fricks</a>
+                <p>Designer & Desenvolvedor Front End</p>
                 <ul class="nav navmenu-nav">
                     <?php foreach($array_menu as $key => $value): ?>
                         <?php $current = ($key == $page) ? "
@@ -133,7 +133,7 @@
           </div>
       </div> <!-- end -->
       <footer>
-          <p>João Paulo Fricks 2000 - 2016 &copy; <small>|</small> Designer e Desenvolvedor Front End <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
+          <p>&copy; 2000 - 2016 - João Paulo Fricks <small>|</small> Designer e Desenvolvedor Front End <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
           <ul class="list-inline">
               <?php foreach($array_menu as $key => $value): ?>
                   <?php $current = ($key == $page) ? "
