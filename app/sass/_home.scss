@@ -3,8 +3,36 @@
 // --------------------------------------------------
 
 .content-home {
-    margin-top: -50px;
 
+    padding: 0;
+    margin-top: -10%;
+
+    h1,h2,h3 {
+        span {
+            font-weight:600;
+            text-align: left;
+        }
+    }
+
+    h1 {
+        .s-title {
+            font-size: 26px;
+        }
+    }
+
+    h3 {
+        .s-desc {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+
+    .barra {
+        border-top: 2px solid #9c8bbb;
+        display: block;
+        width: 50%;
+        margin: 10px 0;
+    }
 
     .bt-hire {
         border: 2px solid #9c8bbb;
@@ -14,8 +42,9 @@
         padding: 2px 4px;
         border-radius: 100px;
         color: white;
-        margin: 30px auto;
-        -webkit-transition: all .3s;
+        // margin: 30px auto 0;
+        margin-top: 35px;
+        // -webkit-transition: all .3s;
         transition: all .3s;
         position: relative;
         z-index: 3;
@@ -26,7 +55,7 @@
     }
 
     .group-skills {
-        // margin-top: 20px;
+        margin-top: 20px;
         .label.label-skill {
             border: 1px solid #aaa;
             color: #fff;
@@ -36,26 +65,31 @@
     }
 
     .social-list {
-        display:table;
-        margin:30px auto 0;
+        display: table;
+        // margin:30px auto 0;
+        margin: 20px 0 0;
 
         li {
-            display:block;
+            // display:block;
             padding:0 5px;
             text-align:center;
 
             a {
                 @include transition(color .3s ease);
-                color:$white;
+                color: $white;
                 // font-size:25px;
-                font-size: 16px;
-                font-weight:300px;
+                font-size: 12px;
+                font-weight: 300px;
 
                 &:hover {
-                    color:lighten($black,90%);
+                    color: lighten($black,90%);
                     text-decoration: none;
                 }
 
+            }
+
+            &:first-child{
+                padding-left: 0;
             }
 
         }
@@ -68,15 +102,38 @@
 
     .content-home {
 
+        padding: 0 0 0 10%;
+        margin-top: 0;
+
+        h1,h2 {
+            span {
+                font-weight:600;
+                text-align: left;
+            }
+        }
+
+        h1 {
+            .s-title {
+                font-size: 50px;
+            }
+        }
+
+        h3 {
+            .s-desc {
+                font-size: 24px;
+                line-height: 40px;
+            }
+        }
+
         .social-list {
             // margin:15px auto 0;
 
             li {
-                display:inline-block;
-                padding:0 15px;
+                // display:inline-block;
+                padding: 0 15px;
 
                 a {
-                    // font-size:40px;
+                    font-size: 16px;
                 }
 
             }

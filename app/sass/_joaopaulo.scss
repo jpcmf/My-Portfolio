@@ -41,7 +41,7 @@ $main-max-width : 1400px;
 // --------------------------------------------------
 
 .loader {
-    background:url("../images/loading.gif") 50% 50% no-repeat $main-color;
+    background:url("../images/ring.gif") 50% 50% no-repeat $main-color;
     height:100%;
     left:0px;
     overflow:hidden;
@@ -109,31 +109,28 @@ hr {
 
 // titulos
 
-h1,
-h2,
-h3 {
-    color:$white;
-    font-weight:700;
-    margin:0;
-
+h1,h2,h3,h4 {
+    color: $white;
+    font-weight: 600;
+    margin: 0;
+    // text-align: center;
     span {
-        display:block;
+        display: block;
         text-align: center;
     }
-
 }
 
 h1 {
 
     .s-title {
-        font-size:50px;
-        padding-bottom:10px;
+        // font-size:50px;
+        padding-bottom: 10px;
         //  @include font-size(30px);
     }
 
     .s-desc {
-        font-size:26px;
-        font-weight:300;
+        // font-size:26px;
+        // font-weight:300;
     }
 
 }
@@ -145,17 +142,26 @@ h2 {
     }
 
     .s-desc {
-        // font-size:25px;
-        font-weight:300;
+        // font-size: 25px;
+        font-weight: 300;
+        // line-height: 45px;
     }
 
 }
 
 h2.titulo-sec {
-    margin:0;
-    padding:40px 0 0;
-    text-align:center;
+    margin: 0;
+    padding: 40px 0 0;
+    text-align: center;
 }
+
+// h3 {
+//     .s-desc {
+//         font-weight:300;
+//         line-height:45px;
+//         padding-top:20px;
+//     }
+// }
 
 // botoes
 
@@ -502,35 +508,33 @@ body {
 
    }
 
-   /* Small Devices, Tablets */
-   @media only screen and (min-width : 768px) {
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
 
-     .navbar-default{
-       background-color: darken($main-color, 7%);
-       border:0;
-     }
-
-     h1{
-       .s-title{
-        //  font-size:80px;
-        //  @include font-size(80px)
-       }
-       .s-desc{
-        //   font-size:55px;
-       }
-     }
-
-   }
-
-   /* Medium Devices, Desktops */
-   @media only screen and (min-width : 992px) {
-    .navbar-toggle{
-      margin-left:35px!important;
-      margin-top:24px;
+    .navbar-default{
+        background-color: darken($main-color, 7%);
+        border:0;
     }
-   }
 
-   /* Large Devices, Wide Screens */
-   @media only screen and (min-width : 1200px) {
+//  h1{
+//      .s-title{
+//          font-size:80px;
+//          @include font-size(80px)
+//      }
+//      .s-desc{
+//            font-size:55px;
+//      }
+//  }
 
-   }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .navbar-toggle{
+        margin-left:35px!important;
+        margin-top:24px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
