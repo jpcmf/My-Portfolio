@@ -119,6 +119,13 @@ $(document).ready(function(){
 
   });
 
+  // load modal image code
+  lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+
+
 });
 
 // method resize

@@ -3,8 +3,9 @@
 	/**
 	 *	Envio de emails para um determinado email pegando todos os campos do form
 	 */
-	 $email = 'jpfricks@gmail.com';
-	 //$email = 'freelancer@fricks.com.br';
+	 
+	//  $email = 'jpfricks@gmail.com';
+	 $email = 'hire@fricks.com.br';
 
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		//print_r($_POST); exit;
@@ -32,12 +33,14 @@
 		// 		$mensagem = $mensagem . "$titulo: $texto\n";
 		// 	}
 		// }
+
 		// envia email
 		$emailFrom = $_POST['emailFrom'];
 		$enviado = mail($email, 'Contato fricks.com.br', $mensagem, 'From: <'.$emailFrom.'>');
 		if (!$enviado) {
 			die('Erro no envio do e-mail. Por favor, entre em contato comigo pelo e-mail '.$email);
 		}
+
 		// endereco para ir depois de envia o formulario
 		// header('location: contato_enviado.php');
 		// $html="";

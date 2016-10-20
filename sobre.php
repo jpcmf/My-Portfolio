@@ -1,14 +1,14 @@
 <div class="content-all">
     <div class="content-sobre center-block">
-        <h2 class="titulo-sec">
-            <span class="s-title">Sobre</span>
-            <span class="s-desc">Um pouco da minha experiência</span>
-        </h2>
+        <div class="g-titulo">
+            <h1 class="titulo">Sobre</h1>
+            <h2 class="sub-titulo">Um pouco da minha experiência</h2>
+        </div>
         <hr class="hr-interna">
         <div class="info-sobre">
-            <!-- <img src="assets/images/profile.png" alt="João Paulo Fricks" class="center-block"> -->
+            <img width="250" src="assets/images/profile.png" alt="João Paulo Fricks" class="center-block">
             <p>
-                Meu nome é João Paulo Fricks, nasci e moro em Curitiba e sou freelancer. Em 2006 me formei em Design Gráfico na Universidade Positivo. Tenho muito interesse e paixão por design e experiências de usuário funcionais. Já tive a oportunidade de trabalhar em excelentes equipes onde desenvolvi e aprimorei meus conhecimentos em desenvolvimento web. Atualmente meu foco é o desenvolvimento front end. No meu tempo livre gosto de pesquisar novas tecnologias, ficar com a minha família, jogar video game, escutar ou produzir música e praticar algum esporte.
+                Meu nome é João Paulo, nasci e moro em Curitiba. Me formei em Design Gráfico na Universidade Positivo em 2006. Atualmente trabalho como Designer Gráfico e Desenvolvedor Front End freelancer. Tenho interesse e paixão por design e experiências de usuário funcionais. Gosto de trabalhar com HTML, CSS e JavaScript. Já tive a oportunidade de trabalhar com excelentes times de desenvolvimento onde pude evoluir e aprimorar meus conhecimentos. Atualmente tenho me dedicado ao desenvolvimento front end. No meu tempo livre gosto de ficar com a minha família, pesquisar, ouvir e produzir música, sair, jogar video game e praticar algum esporte.
             </p>
             <blockquote>
                 <p>
@@ -16,10 +16,10 @@
                     <small>Paulo Freire</small>
                 </p>
             </blockquote>
+            <div class="g-titulo">
+                <h2 class="sub-titulo">Conhecimento</h2>
+            </div>
             <hr class="hr-interna">
-            <h2>
-                <span class="s-title">Habilidades</span>
-            </h2>
             <div class="contentContainer">
                 <div class="progressBar">
                     <h4>HTML</h4>
@@ -66,7 +66,7 @@
                 <div class="progressBar">
                     <h4>WordPress</h4>
                     <div class="progressBarContainer">
-                        <div class="progressBarValue value-70">70%</div>
+                        <div class="progressBarValue value-70">80%</div>
                     </div>
                 </div>
                 <div class="progressBar">
@@ -94,8 +94,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <hr class="hr-interna">
-            <a href="index.php?page=contato" class="btn btn-info btn-lg center-block">Entre em contato</a> -->
         </div>
     </div>
 </div>

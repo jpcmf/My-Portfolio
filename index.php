@@ -19,35 +19,35 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <title>João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba</title>
-    <meta name="keywords" content="desenvolvedor front-end, joão paulo fricks, freelancer, programador, interface, web, portfolio, front end, curitiba, parana, brasil" />
-    <meta name="description" content="Portfolio de João Paulo Fricks. Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
+    <title>João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil</title>
+    <meta name="keywords" content="desenvolvimento, desenvolvedor, designer, gráfico, programador, front-end, joão paulo cordeiro de meira fricks, freelancer, interface, web, portfolio, front end, curitiba, parana, brasil">
+    <meta name="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Paraná - Brasil.">
 
     <!-- google -->
-    <meta name="google-site-verification" content="BuuNIbzIxyitMc69-xgr7c-oIM3u05CpaWLfSuizcA8" />
-    <meta name="author" content="João Paulo Fricks">
+    <meta name="google-site-verification" content="BuuNIbzIxyitMc69-xgr7c-oIM3u05CpaWLfSuizcA8">
+    <meta name="author" content="João Paulo Cordeiro de Meira Fricks">
     <meta name="Robots" content="all">
     <link rel="canonical" href="http://www.fricks.com.br">
 
     <!-- twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="http://www.fricks.com.br">
-    <meta name="twitter:title" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba">
-    <meta name="twitter:description" content="Portfolio de João Paulo Fricks. Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
+    <meta name="twitter:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
+    <meta name="twitter:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Paraná - Brasil.">
     <meta name="twitter:image" content="http://www.fricks.com.br/img500x500.png">
 
     <!-- facebook -->
-    <meta property="fb:admins" content="" />
+    <meta property="fb:admins" content="">
     <meta property="og:url" content="http://www.fricks.com.br">
-    <meta property="og:title" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba">
+    <meta property="og:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
     <meta property="og:image" content="http://www.fricks.com.br/img500x500.png">
-    <meta property="og:site_name" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba">
-    <meta property="og:description" content="Portfolio de João Paulo Fricks. Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
+    <meta property="og:site_name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
+    <meta property="og:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Paraná - Brasil.">
 
     <!-- google+ schema.org -->
-    <meta itemprop="name" content="João Paulo Fricks | Desenvolvedor Front End e Designer Gráfico | Curitiba"/>
-    <meta itemprop="description" content="Portfolio de João Paulo Fricks. Desenvolvedor Front End e Designer Gráfico Freelancer de Curitiba.">
-    <meta itemprop="image" content="http://www.fricks.com.br/img500x500.png"/>
+    <meta itemprop="name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
+    <meta itemprop="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Paraná - Brasil.">
+    <meta itemprop="image" content="http://www.fricks.com.br/img500x500.png">
 
     <!-- favicon-->
     <link rel="shortcut icon" href="favicon.ico">
@@ -83,9 +83,10 @@
 
         <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
             <div class="hide-content">
-                <img src="assets/images/profile.png" alt="João Paulo Fricks" class="">
-                <a class="navmenu-brand" href="index.php">João Paulo Fricks</a>
-                <p>Designer & Desenvolvedor Front End</p>
+                <a href="/"><img src="assets/images/profile.png" alt="João Paulo Fricks" class=""></a>
+                <!-- <a class="navmenu-brand" href="index.php">João Paulo Fricks</a> -->
+                <p class="nome">João Paulo</p>
+                <p class="funcao">Designer e Desenvolvedor Front End</p>
                 <ul class="nav navmenu-nav">
                     <?php foreach($array_menu as $key => $value): ?>
                         <?php $current = ($key == $page) ? "
@@ -94,7 +95,7 @@
                     <?php endforeach; ?>
                 </ul>
                 <ul class="social-list list-inline">
-                    <li class=""><a href="mailto:jpfricks@gmail.com?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
+                    <li class=""><a href="mailto:hire@fricks.com.br?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
                     <li class=""><a href="//br.linkedin.com/in/joaopaulofricks" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
                     <li class=""><a href="//twitter.com/JoaoPauloFricks" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     <li class=""><a href="//github.com/fricks" target="_blank"><i class="fa fa-github-alt"></i></a></li>
@@ -133,7 +134,7 @@
           </div>
       </div> <!-- end -->
       <footer>
-          <p>&copy; 2000 - 2016 - João Paulo Fricks <small>|</small> Designer e Desenvolvedor Front End <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
+          <p>&copy; 2000 - 2016 - João Paulo <small>|</small> Designer e Desenvolvedor Front End <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
           <ul class="list-inline">
               <?php foreach($array_menu as $key => $value): ?>
                   <?php $current = ($key == $page) ? "

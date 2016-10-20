@@ -78,11 +78,9 @@ gulp.task('sass-app', function () {
         config.sassPath,
         config.bowerDir + '/bootstrap-sass-official/assets/stylesheets',
         config.bowerDir + '/jasny-bootstrap/scss',
-        config.bowerDir + '/fontawesome/scss',
-
+        config.bowerDir + '/fontawesome/scss'
         //config.bowerDir + '/slick.js/slick/slick.scss',
         //config.bowerDir + '/Hover/scss',
-
     ]
   })
 
@@ -145,6 +143,7 @@ gulp.task('js', function () {
     config.bowerDir + '/jquery.lazyload/jquery.lazyload.js',
     config.bowerDir + '/jasny-bootstrap/dist/js/jasny-bootstrap.min.js',
     //config.bowerDir + '/slick.js/slick/slick.js',
+    config.bowerDir + '/lightbox2/dist/js/lightbox.min.js',
     './assets/js/app.js',
     ])
   //return gulp.src(config.bowerDir + '/bootstrap-sass-official/assets/javascripts/bootstrap.js')

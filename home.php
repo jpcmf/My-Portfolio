@@ -1,7 +1,7 @@
 <div class="content-all">
     <div id="content" class="content-home">
         <h1>
-            <span class="s-title hidden-xs">João Paulo Fricks</span>
+            <span class="s-title hidden-xs">João Paulo</span>
         </h1>
         <span class="barra"></span>
         <h3>
@@ -9,14 +9,14 @@
         </h3>
 
         <ul class="social-list list-inline">
-            <!-- <li class=""><a href="mailto:jpfricks@gmail.com?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-envelope-o"></i></a></li> -->
+            <!-- <li class=""><a href="mailto:hire@fricks.com.br?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-envelope-o"></i></a></li> -->
             <li class=""><a href="//br.linkedin.com/in/joaopaulofricks" target="_blank"><i class="fa fa-linkedin-square"></i>&nbsp;LinkedIn</a></li>
             <li class=""><a href="//twitter.com/JoaoPauloFricks" target="_blank"><i class="fa fa-twitter"></i>&nbsp; Twitter</a></li>
             <li class=""><a href="//github.com/fricks" target="_blank"><i class="fa fa-github-alt"></i>&nbsp; Github</a></li>
             <li class=""><a href="//pt.stackoverflow.com/users/8050/fricks" target="_blank"><i class="fa fa-stack-overflow"></i>&nbsp; StackOverflow</a></li>
         </ul>
 
-        <a href="mailto:jpfricks@gmail.com?subject=Olá João Paulo Fricks" class="btn bt-hire">
+        <a href="mailto:hire@fricks.com.br?subject=Olá João Paulo Fricks" class="btn bt-hire">
             <i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Me contrate
         </a>
 

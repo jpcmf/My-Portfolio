@@ -1,7 +1,9 @@
 User-agent: *
+
 Allow: /
+
+Disallow: /_2015/
 Disallow: /portfolio/
-Disallow: /_app/
-Disallow: /_old/
-Disallow: /_trabalho/
+Disallow: /jobs/
+
 Sitemap: http://www.fricks.com/sitemap.xml

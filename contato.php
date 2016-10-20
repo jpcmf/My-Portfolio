@@ -1,9 +1,9 @@
 <div class="content-all">
     <div class="content-contato center-block">
-        <h2 class="titulo-sec">
-            <span class="s-title">Contato</span>
-            <span class="s-desc">Deixe uma mensagem</span>
-        </h2>
+        <div class="g-titulo">
+            <h1 class="titulo">Contato</h1>
+            <!-- <h2 class="sub-titulo"></h2> -->
+        </div>
         <hr class="hr-interna">
         <div class="formSend" id="formToSend">
             <form action="" method="POST" onsubmit="return false">
@@ -29,8 +29,6 @@
         <div class="formSent" id="formSent">
             <h4>Obrigado!</h4>
             <p>Sua mensagem foi enviada com sucesso e em breve irei responde-la.</p>
-            <!-- <p></p> -->
-            <!-- <p>Send your demos/tracks to:<br> <a href="mailto:demos@joaopaulomusic.com?subject=Demos%20Joao Paulo Music">demos@joaopaulomusic.com</a><br><br>For bookings send email to:<br> <a href="mailto:bookings@joaopaulomusic.com?subject=Bookings%20Joao Paulo Music">bookings@joaopaulomusic.com</a></p> -->
         </div>
     </div>
 </div>

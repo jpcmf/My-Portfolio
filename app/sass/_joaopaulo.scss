@@ -26,7 +26,7 @@ $open-sans     : 'Open Sans', sans-serif;
 
 $white      : #FFF;
 $black      : #000;
-$main-color : #514469;
+$main-color : #2A213C;
 $link-hover : #424a51;
 $bg-barra   : rgba(8, 102, 220, 0.2);
 $in-barra   : rgba(8, 102, 220, 0.75);
@@ -118,6 +118,24 @@ h1,h2,h3,h4 {
         display: block;
         text-align: center;
     }
+}
+
+.g-titulo {
+    padding: 40px 0 0;
+}
+
+.titulo,
+.sub-titulo {
+    text-align: center;
+}
+
+.titulo {
+    // padding: 40px 0 0;
+    // margin: 0;
+}
+
+.sub-titulo {
+    font-weight: 300;
 }
 
 h1 {
@@ -440,6 +458,10 @@ body {
 .hide-content {
     text-align:center;
 
+    p.nome {
+        font-size: 18px;
+    }
+
     img {
         width:108px;
         margin:40px 0 20px 0;
@@ -477,7 +499,7 @@ body {
             a {
                 color: #fff;
                 i {
-                    font-size:25px;
+                    font-size: 20px;
                 }
             }
         }
