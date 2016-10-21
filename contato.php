@@ -23,12 +23,13 @@
                     <label for="">Mensagem</label>
                     <textarea class="form-control message" name="message" placeholder="" cols="20" rows="5"></textarea>
                 </div>
-                <input type="submit" value="Enviar" id="submit" class="btn bt-enviar-contato">
+                <button type="submit" name="button" id="submit" class="btn bt-enviar-contato"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; ENVIAR</button>
+                <!-- <input type="submit" value="Enviar" id="submit" class="btn bt-enviar-contato"> -->
             </form>
         </div>
         <div class="formSent" id="formSent">
             <h4>Obrigado!</h4>
-            <p>Sua mensagem foi enviada com sucesso e em breve irei responde-la.</p>
+            <p>Sua mensagem foi enviada com sucesso e em breve será respondida.</p>
         </div>
     </div>
 </div>

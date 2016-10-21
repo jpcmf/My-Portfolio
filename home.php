@@ -16,7 +16,7 @@
             <li class=""><a href="//pt.stackoverflow.com/users/8050/fricks" target="_blank"><i class="fa fa-stack-overflow"></i>&nbsp; StackOverflow</a></li>
         </ul>
 
-        <a href="mailto:hire@fricks.com.br?subject=Olá João Paulo Fricks" class="btn bt-hire">
+        <a href="index.php?page=contato" class="btn bt-hire">
             <i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Me contrate
         </a>
 

@@ -1,5 +1,9 @@
 .DS_Store
+/.htaccess
+/.sass-cache
 /vendor
 /node_modules
 /bower_components
-/.sass-cache
+/app
+/robots.txt
+/sitemap.xml
