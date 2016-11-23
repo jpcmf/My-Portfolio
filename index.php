@@ -13,15 +13,15 @@
     );
 ?>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <title>João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil</title>
+    <title>Designer e Desenvolvedor Front End Freelancer de Curitiba - Brasil</title>
     <meta name="keywords" content="desenvolvimento, desenvolvedor, designer, gráfico, programador, front-end, joão paulo cordeiro de meira fricks, freelancer, interface, web, portfolio, front end, curitiba, parana, brasil">
-    <meta name="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Paraná - Brasil.">
+    <meta name="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
 
     <!-- google -->
     <meta name="google-site-verification" content="BuuNIbzIxyitMc69-xgr7c-oIM3u05CpaWLfSuizcA8">
@@ -33,20 +33,20 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="http://www.fricks.com.br">
     <meta name="twitter:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
-    <meta name="twitter:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Paraná - Brasil.">
+    <meta name="twitter:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
     <meta name="twitter:image" content="http://www.fricks.com.br/img500x500.png">
 
     <!-- facebook -->
     <meta property="fb:admins" content="">
     <meta property="og:url" content="http://www.fricks.com.br">
-    <meta property="og:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
+    <meta property="og:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
     <meta property="og:image" content="http://www.fricks.com.br/img500x500.png">
-    <meta property="og:site_name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
-    <meta property="og:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Paraná - Brasil.">
+    <meta property="og:site_name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
+    <meta property="og:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
 
     <!-- google+ schema.org -->
-    <meta itemprop="name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
-    <meta itemprop="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Paraná - Brasil.">
+    <meta itemprop="name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
+    <meta itemprop="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
     <meta itemprop="image" content="http://www.fricks.com.br/img500x500.png">
 
     <!-- favicon-->
@@ -86,7 +86,7 @@
                 <a href="/"><img src="assets/images/profile.png" alt="João Paulo Fricks" class=""></a>
                 <!-- <a class="navmenu-brand" href="index.php">João Paulo Fricks</a> -->
                 <p class="nome">João Paulo</p>
-                <p class="funcao">Designer e Desenvolvedor Front End</p>
+                <p class="funcao">Designer e Desenvolvedor Front End Freelancer</p>
                 <ul class="nav navmenu-nav">
                     <?php foreach($array_menu as $key => $value): ?>
                         <?php $current = ($key == $page) ? "
@@ -112,7 +112,7 @@
       </div> <!-- end -->
       <div class="center-row">
           <div class="center-container">
-              <div class="container-fluid">
+              <div class="container-fluid" style="height:100%;">
                   <?php
                   $page = $_GET['page'];
                   $pages = array('home', 'sobre', 'portfolio', 'contato');
@@ -122,8 +122,8 @@
                           include($page);
                       }
                       else {
-                          echo 'Página não encontrada. Retorne para
-                          <a href="index.php">Home</a>.';
+                          echo '<div class="content-error"><img src="assets/images/john_travolta_404.gif" alt=""><p>Página não encontrada. Retorne para
+                          <a href="index.php">Home</a>.</p></div>';
                       }
                   }
                   else {
@@ -134,7 +134,7 @@
           </div>
       </div> <!-- end -->
       <footer>
-          <p>&copy; 2000 - 2016 - João Paulo <small>|</small> Designer e Desenvolvedor Front End <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
+          <p>&copy; 2000 - 2016 - João Paulo <small>|</small> Designer e Desenvolvedor Front End Freelancer <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
           <ul class="list-inline">
               <?php foreach($array_menu as $key => $value): ?>
                   <?php $current = ($key == $page) ? "
