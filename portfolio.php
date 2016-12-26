@@ -2,36 +2,31 @@
     <div class="content-portfolio center-block">
         <div class="g-titulo">
             <h1 class="titulo">Portfolio</h1>
-            <h2 class="sub-titulo">Impressos</h2>
-        </div>
-        <hr class="hr-interna">
-        <ul class="block-grid-xs-1 block-grid-sm-2 portfolio-list" style="display:flex;">
-            <li class="block-grid-item">
-                <div class="content-work contentContainer">
-                    <div class="work-center">
-                        <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-karenteixeira.jpg" alt="">
-                    </div>
-                    <div class="work-center">
-                        <a class="btn bt-enviar-contato center-block" href="assets/images/portfolio/card-karenteixeira.jpg" data-lightbox="image-1" data-title="Cartão de visita">Visualizar</a>
-                    </div>
-                </div>
-            </li>
-            <li class="block-grid-item">
-                <div class="content-work contentContainer">
-                    <div class="work-center">
-                        <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-joaopaulo.jpg" alt="">
-                    </div>
-                    <div class="work-center">
-                        <a class="btn bt-enviar-contato center-block"href="assets/images/portfolio/card-joaopaulo.jpg" data-lightbox="image-2" data-title="Cartão de visita">Visualizar</a>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <div class="g-titulo">
             <h2 class="sub-titulo">Desenvolvimento Front End</h2>
         </div>
         <hr class="hr-interna">
         <ul class="block-grid-xs-1 block-grid-sm-2 portfolio-list" style="display:flex;">
+          <li class="block-grid-item">
+              <div class="content-work contentContainer">
+                  <div class="work-center">
+                      <a class="" href="//goo.gl/jbehXd" target="_blank" title="Showcase Kibo Sushi Restaurant - Portfolio João Paulo">
+                          <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/site-kibo2016.jpg" alt="Showcase Kibo Sushi Restaurant - Portfolio João Paulo">
+                      </a>
+                  </div>
+                  <div class="work-center">
+                      <a class="btn bt-enviar-contato center-block" href="//goo.gl/jbehXd" target="_blank">Acessar</a>
+                  </div>
+                  <div class="work-center">
+                      <div class="progressBar">
+                          <p>Projeto: Kibo Sushi Restaurant</p>
+                          <p>Site responsivo em Wordpress</p>
+                          <p>Data de entrega: Dezembro de 2016</p>
+                          <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
+                          <p>Direção de Arte: <a target="_blank" target="_blank" href="https://www.behance.net/denisfreitas">Denis Freitas&nbsp; <i class="fa fa-globe"></i></a></p>
+                      </div>
+                  </div>
+              </div>
+          </li>
             <li class="block-grid-item">
                 <div class="content-work contentContainer">
                     <div class="work-center">
@@ -191,6 +186,33 @@
                             <p>Front End: <a href="index.php?page=contato">João Paulo Fricks&nbsp; <i class="fa fa-envelope-o"></i></a></p>
                             <p>Direção de Arte: Ideioteca</p>
                         </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="g-titulo">
+
+            <h2 class="sub-titulo">Impressos</h2>
+        </div>
+        <hr class="hr-interna">
+        <ul class="block-grid-xs-1 block-grid-sm-2 portfolio-list" style="display:flex;">
+            <li class="block-grid-item">
+                <div class="content-work contentContainer">
+                    <div class="work-center">
+                        <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-karenteixeira.jpg" alt="">
+                    </div>
+                    <div class="work-center">
+                        <a class="btn bt-enviar-contato center-block" href="assets/images/portfolio/card-karenteixeira.jpg" data-lightbox="image-1" data-title="Cartão de visita">Visualizar</a>
+                    </div>
+                </div>
+            </li>
+            <li class="block-grid-item">
+                <div class="content-work contentContainer">
+                    <div class="work-center">
+                        <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-joaopaulo.jpg" alt="">
+                    </div>
+                    <div class="work-center">
+                        <a class="btn bt-enviar-contato center-block"href="assets/images/portfolio/card-joaopaulo.jpg" data-lightbox="image-2" data-title="Cartão de visita">Visualizar</a>
                     </div>
                 </div>
             </li>
