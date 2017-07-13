@@ -3,9 +3,9 @@
 	/**
 	 *	Envio de emails para um determinado email pegando todos os campos do form
 	 */
-	 
+
 	//  $email = 'jpfricks@gmail.com';
-	 $email = 'hire@fricks.com.br';
+	 $email = 'hire@joaolabs.tk';
 
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		//print_r($_POST); exit;
@@ -36,7 +36,7 @@
 
 		// envia email
 		$emailFrom = $_POST['emailFrom'];
-		$enviado = mail($email, 'Contato fricks.com.br', $mensagem, 'From: <'.$emailFrom.'>');
+		$enviado = mail($email, 'Contato joaolabs.tk', $mensagem, 'From: <'.$emailFrom.'>');
 		if (!$enviado) {
 			die('Erro no envio do e-mail. Por favor, entre em contato comigo pelo e-mail '.$email);
 		}

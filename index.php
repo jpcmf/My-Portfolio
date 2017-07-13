@@ -27,27 +27,27 @@
     <meta name="google-site-verification" content="BuuNIbzIxyitMc69-xgr7c-oIM3u05CpaWLfSuizcA8">
     <meta name="author" content="João Paulo Cordeiro de Meira Fricks">
     <meta name="Robots" content="all">
-    <link rel="canonical" href="http://www.fricks.com.br">
+    <link rel="canonical" href="http://www.joaolabs.tk">
 
     <!-- twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="http://www.fricks.com.br">
+    <meta name="twitter:url" content="http://www.joaolabs.tk">
     <meta name="twitter:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
     <meta name="twitter:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
-    <meta name="twitter:image" content="http://www.fricks.com.br/img500x500.png">
+    <meta name="twitter:image" content="http://www.joaolabs.tk/img500x500.png">
 
     <!-- facebook -->
     <meta property="fb:admins" content="">
-    <meta property="og:url" content="http://www.fricks.com.br">
+    <meta property="og:url" content="http://www.joaolabs.tk">
     <meta property="og:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
-    <meta property="og:image" content="http://www.fricks.com.br/img500x500.png">
+    <meta property="og:image" content="http://www.joaolabs.tk/img500x500.png">
     <meta property="og:site_name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
     <meta property="og:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
 
     <!-- google+ schema.org -->
     <meta itemprop="name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
     <meta itemprop="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
-    <meta itemprop="image" content="http://www.fricks.com.br/img500x500.png">
+    <meta itemprop="image" content="http://www.joaolabs.tk/img500x500.png">
 
     <!-- favicon-->
     <link rel="shortcut icon" href="favicon.ico">
@@ -83,9 +83,9 @@
 
         <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
             <div class="hide-content">
-                <a href="/"><img src="assets/images/profile.png" alt="João Paulo Fricks" class=""></a>
+                <a href="/"><img src="assets/images/profile.png" alt="João Paulo" class=""></a>
                 <!-- <a class="navmenu-brand" href="index.php">João Paulo Fricks</a> -->
-                <p class="nome">João Paulo</p>
+                <p class="nome">João Labs</p>
                 <p class="funcao">Designer e Desenvolvedor Front End Freelancer</p>
                 <ul class="nav navmenu-nav">
                     <?php foreach($array_menu as $key => $value): ?>
@@ -95,10 +95,10 @@
                     <?php endforeach; ?>
                 </ul>
                 <ul class="social-list list-inline">
-                    <li class=""><a href="mailto:hire@fricks.com.br?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
+                    <li class=""><a href="mailto:hire@joaolabs.tk?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
                     <li class=""><a href="//br.linkedin.com/in/joaopaulo80" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-                    <li class=""><a href="//twitter.com/JoaoPauloFricks" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li class=""><a href="//github.com/fricks" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                    <li class=""><a href="//twitter.com/Joao_Labs" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li class=""><a href="//github.com/JoaoLabs" target="_blank"><i class="fa fa-github-alt"></i></a></li>
                     <li class=""><a href="//pt.stackoverflow.com/users/8050/fricks" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
                 </ul>
             </div>
@@ -134,7 +134,7 @@
           </div>
       </div> <!-- end -->
       <footer>
-          <p>&copy; 2000 - 2016 - João Paulo <small>|</small> Designer e Desenvolvedor Front End Freelancer <!-- <small>|</small> <a href="//www.fricks.com.br">www.fricks.com.br</a>--></p>
+          <p>&copy; 2000 - 2017 - João Labs <small>|</small> Designer e Desenvolvedor Front End Freelancer <!-- <small>|</small> <a href="//www.joaolabs.tk">www.joaolabs.tk</a>--></p>
           <ul class="list-inline">
               <?php foreach($array_menu as $key => $value): ?>
                   <?php $current = ($key == $page) ? "

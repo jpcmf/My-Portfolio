@@ -36,19 +36,13 @@
                 <div class="progressBar">
                     <h4>SASS</h4>
                     <div class="progressBarContainer">
-                        <div class="progressBarValue value-80">80%</div>
+                        <div class="progressBarValue value-100">100%</div>
                     </div>
                 </div>
                 <div class="progressBar">
                     <h4>JavaScript</h4>
                     <div class="progressBarContainer">
-                        <div class="progressBarValue value-30">30%</div>
-                    </div>
-                </div>
-                <div class="progressBar">
-                    <h4>jQuery</h4>
-                    <div class="progressBarContainer">
-                        <div class="progressBarValue value-50">50%</div>
+                        <div class="progressBarValue value-80">80%</div>
                     </div>
                 </div>
                 <div class="progressBar">
@@ -66,31 +60,25 @@
                 <div class="progressBar">
                     <h4>WordPress</h4>
                     <div class="progressBarContainer">
-                        <div class="progressBarValue value-70">80%</div>
+                        <div class="progressBarValue value-90">90%</div>
                     </div>
                 </div>
                 <div class="progressBar">
-                    <h4>Photoshop</h4>
+                    <h4>Design Gráfico</h4>
                     <div class="progressBarContainer">
-                        <div class="progressBarValue value-50">50%</div>
+                        <div class="progressBarValue value-80">80%</div>
                     </div>
                 </div>
                 <div class="progressBar">
                     <h4>Web Design</h4>
                     <div class="progressBarContainer">
-                        <div class="progressBarValue value-100">100%</div>
+                        <div class="progressBarValue value-90">90%</div>
                     </div>
                 </div>
                 <div class="progressBar">
                     <h4>Design Responsivo</h4>
                     <div class="progressBarContainer">
                         <div class="progressBarValue value-100">100%</div>
-                    </div>
-                </div>
-                <div class="progressBar">
-                    <h4>Mobile Android</h4>
-                    <div class="progressBarContainer">
-                        <div class="progressBarValue value-50">50%</div>
                     </div>
                 </div>
             </div>
