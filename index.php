@@ -95,7 +95,7 @@
                     <?php endforeach; ?>
                 </ul>
                 <ul class="social-list list-inline">
-                    <li class=""><a href="mailto:hire@joaolabs.tk?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
+                    <li class=""><a href="mailto:hire@joaolabs.tk?subject=Olá João" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
                     <li class=""><a href="//br.linkedin.com/in/joaopaulo80" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
                     <li class=""><a href="//twitter.com/Joao_Labs" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     <li class=""><a href="//github.com/JoaoLabs" target="_blank"><i class="fa fa-github-alt"></i></a></li>
