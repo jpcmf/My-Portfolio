@@ -5,7 +5,7 @@
         </h1>
         <span class="barra"></span>
         <h3>
-            <span class="s-desc"><u>Designer</u> com uma paixão por design e experiências de usuário funcionais.<br><u>Desenvolvedor Front End</u> concentrado em escrever código limpo, elegante e eficiente.</span>
+            <span class="s-desc"><u>Designer Gráfico</u> com uma paixão por design e experiências de usuário funcionais.<br><u>Desenvolvedor Front End</u> concentrado em escrever código limpo e eficiente.</span>
         </h3>
 
         <ul class="social-list list-inline">
@@ -27,13 +27,13 @@
             <span class="label label-skill">Stylus</span>
             <!-- <br> -->
             <span class="label label-skill">JavaScript</span>
+            <span class="label label-skill">AngularJs</span>
+            <span class="label label-skill">jQuery</span>
             <span class="label label-skill">PHP</span>
-            <span class="label label-skill">SQL</span>
-            <span class="label label-skill">XML</span>
             <br>
             <span class="label label-skill">Symfony</span>
             <span class="label label-skill">Laravel</span>
-            <span class="label label-skill">AngularJs</span>
+            <span class="label label-skill">Ruby on Rails</span>
             <!-- <br> -->
             <span class="label label-skill">Web Design</span>
             <span class="label label-skill">Design Responsive</span>
