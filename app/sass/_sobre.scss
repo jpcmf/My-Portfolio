@@ -3,123 +3,89 @@
 // --------------------------------------------------
 
 .content-sobre{
-
-    .info-sobre{
-
-        img{
-            margin-bottom:30px;
-        }
-
-        p{
-            color:$white;
-            // font-size:20px;
-            font-weight:300;
-            line-height:30px;
-        }
-
-        h3{
-            text-align: center;
-        }
-
-        blockquote{
-            margin:40px 0 0 0;
-
-            small{
-                background:transparent;
-                color:$white;
-                height: auto;
-                position: relative;
-            }
-
-        }
-
+  .info-sobre{
+    img{
+      margin-bottom:30px;
     }
 
+    p{
+      color:black;
+      font-weight:400;
+      line-height:30px;
+    }
+
+    h3{
+      text-align: center;
+    }
+
+    blockquote{
+      margin:40px 0 0 0;
+
+      small{
+        background:transparent;
+        color:$white;
+        height: auto;
+        position: relative;
+      }
+    }
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
-    .content-sobre {
-
-        .info-sobre{
-
-            img {
-
-            }
-
-             p {
-               font-size:18px;
-               line-height:40px;
-             }
-
-             h3 {
-
-             }
-
-        }
-
+  .content-sobre {
+    .info-sobre{
+      p {
+        font-size:18px;
+        line-height:40px;
+      }
     }
-
+  }
 }
 
 .contentContainer {
+  border: $nb;
+  color: black;
+  min-width: 150px;
+  margin: 30px 0 0;
+  width: 100%;
 
-    border: $nb;
-    color: #fff;
-    min-width: 150px;
-    margin: 30px 0 0;
-    width: 100%;
-    // background: #efefef;
-    // padding: 20px;
-    // max-width: 1000px;
-    //margin: 15vh auto;
-    // border-radius: 10px;
-    //border: solid 5px #dbdbdb;
+  .progressBar {
+    margin-bottom: 26px;
 
-    .progressBar {
-        margin-bottom: 26px;
-        // margin-bottom: 1.66em;
+    a {
+      color: black;
 
-        a {
-            color: $white;
+      &:hover {
+        color: $white;
+      }
 
-            &:hover {
-                color: $white;
-            }
-
-            i {
-                margin-right: 10px;
-            }
-
-        }
-
-        h4 {
-            font-size: 18px;
-            // text-transform: none;
-            font-weight: 700;
-            margin-bottom: 7px;
-        }
-
+      i {
+        margin-right: 10px;
+      }
     }
 
+    h4 {
+      color: black;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 7px;
+    }
+  }
 }
 
 .progressBarContainer {
-    // background: #e6eae3;
-    background: rgba(64, 54, 83, .2);
-    overflow: hidden;
-    width: 100%;
+  background-color: rgba(64, 54, 83, .2);
+  overflow: hidden;
+  width: 100%;
 
-    .progressBarValue {
-        background: #403653;
-        // background: rgba(8,102,220,.75);
-        color: $white;
-        float: left;
-        padding: 4px 10px;
-        text-align: right;
-    }
-
+  .progressBarValue {
+    background-color: $main-text;
+    color: $white;
+    float: left;
+    padding: 4px 10px;
+    text-align: right;
+  }
 }
 
 .value-00 { width: 0; }

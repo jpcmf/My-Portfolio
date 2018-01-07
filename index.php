@@ -5,10 +5,10 @@ $page = (isset($_GET['page'])) ? $_GET['page'] : "home";
 // monta os menus
 $array_menu = array(
   // "home" => "Home",
-  "sobre" => "Sobre",
+  "sobre" => "About",
   "portfolio" => "Portfolio",
   // "clientes" => "Clientes",
-  "contato" => "Contato"
+  "contato" => "Contact"
 );
 ?>
 <!DOCTYPE html>
@@ -18,7 +18,8 @@ $array_menu = array(
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <title>Designer e Desenvolvedor Front End Freelancer de Curitiba - Brasil</title>
+  <title>João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil</title>
+  <!-- <title>Desenvolvedor Front End e Designer Freelancer de Curitiba - Brasil</title> -->
   <meta name="keywords" content="desenvolvimento, desenvolvedor, designer, gráfico, programador, front-end, joão paulo cordeiro de meira fricks, freelancer, interface, web, portfolio, front end, curitiba, parana, brasil">
   <meta name="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
 
@@ -81,8 +82,9 @@ $array_menu = array(
       <div class="hide-content">
         <a href="/"><img src="assets/images/profile.png" alt="João Paulo" class=""></a>
         <!-- <a class="navmenu-brand" href="index.php">João Paulo Fricks</a> -->
-        <p class="nome">João Labs</p>
-        <p class="funcao">Designer e Desenvolvedor Front End Freelancer</p>
+        <p class="nome">João Paulo</p>
+        <p class="funcao">IT Front-end Developer and Designer</p>
+        <!-- <p class="funcao">Designer e Desenvolvedor Front End Freelancer</p> -->
         <ul class="nav navmenu-nav">
           <?php foreach($array_menu as $key => $value): ?>
             <?php $current = ($key == $page) ? "
@@ -91,11 +93,11 @@ $array_menu = array(
           <?php endforeach; ?>
         </ul>
         <ul class="social-list list-inline">
-          <li class=""><a href="mailto:hire@joaolabs.tk?subject=Olá João" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
+          <li class=""><a href="mailto:hire@joaolabs.tk?subject=Hello João Paulo" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
           <li class=""><a href="//br.linkedin.com/in/joaopaulo80" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-          <li class=""><a href="//twitter.com/Joao_Labs" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li class=""><a href="//github.com/JoaoLabs" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-          <li class=""><a href="//pt.stackoverflow.com/users/8050/fricks" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+          <li class=""><a href="//twitter.com/jpcmf80" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li class=""><a href="//github.com/jpcmf" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+          <li class=""><a href="//pt.stackoverflow.com/users/8050/jpcmf80" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
         </ul>
       </div>
     </div> <!-- end -->
@@ -130,7 +132,8 @@ $array_menu = array(
       </div>
     </div> <!-- end -->
     <footer>
-      <p>&copy; 2000 - 2017 - João Labs <small>|</small> Designer e Desenvolvedor Front End Freelancer <!-- <small>|</small> <a href="//www.joaolabs.tk">www.joaolabs.tk</a>--></p>
+      <p>&copy; 2000 - 2018 - João Paulo <small>|</small> IT Front-end Developer and Designer <!-- <small>|</small> <a href="//www.joaolabs.tk">www.joaolabs.tk</a>--></p>
+      <!-- <p>&copy; 2000 - 2018 - João Paulo <small>|</small> Designer e Desenvolvedor Front End Freelancer <small>|</small> <a href="//www.joaolabs.tk">www.joaolabs.tk</a> </p> -->
       <ul class="list-inline">
         <?php foreach($array_menu as $key => $value): ?>
           <?php $current = ($key == $page) ? "
