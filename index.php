@@ -61,7 +61,7 @@ $array_menu = array(
   <meta itemprop="image" content="http://www.joaolabs.tk/img500x500.png">
 
   <!-- favicon-->
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
   <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
