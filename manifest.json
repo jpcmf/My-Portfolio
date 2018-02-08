@@ -1,0 +1,14 @@
+{
+  "name": "João Paulo | IT Front-end Developer and Designer",
+  "short_name": "João Paulo | IT Front-end Developer and Designer",
+  "description": "João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil",
+  "lang": "pt-BR",
+  "start_url": "/index.php",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "n"
+    }
+  ]
+}

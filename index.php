@@ -16,12 +16,23 @@ $array_menu = array(
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil</title>
   <!-- <title>Desenvolvedor Front End e Designer Freelancer de Curitiba - Brasil</title> -->
-  <meta name="keywords" content="desenvolvimento, desenvolvedor, designer, gráfico, programador, front-end, joão paulo cordeiro de meira fricks, freelancer, interface, web, portfolio, front end, curitiba, parana, brasil">
-  <meta name="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
+  <!-- <meta name="keywords" content="desenvolvimento, desenvolvedor, designer, gráfico, programador, front-end, joão paulo cordeiro de meira fricks, freelancer, interface, web, portfolio, front end, curitiba, parana, brasil"> -->
+  <!-- <meta name="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil."> -->
+  <meta name="description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
+
+  <!-- manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="João Paulo | IT Front-end Developer and Designer">
+  <meta name="apple-mobile-web-app-title" content="João Paulo | IT Front-end Developer and Designer">
+  <meta name="msapplication-starturl" content="/index.php">
 
   <!-- google -->
   <meta name="google-site-verification" content="BuuNIbzIxyitMc69-xgr7c-oIM3u05CpaWLfSuizcA8">
@@ -32,25 +43,31 @@ $array_menu = array(
   <!-- twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="http://www.joaolabs.tk">
-  <meta name="twitter:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Paraná - Brasil">
-  <meta name="twitter:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
+  <meta name="twitter:title" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
+  <meta name="twitter:description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
   <meta name="twitter:image" content="http://www.joaolabs.tk/img500x500.png">
 
   <!-- facebook -->
   <meta property="fb:admins" content="">
   <meta property="og:url" content="http://www.joaolabs.tk">
-  <meta property="og:title" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
+  <meta property="og:title" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
   <meta property="og:image" content="http://www.joaolabs.tk/img500x500.png">
-  <meta property="og:site_name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
-  <meta property="og:description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
+  <meta property="og:site_name" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
+  <meta property="og:description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
 
   <!-- google+ schema.org -->
-  <meta itemprop="name" content="João Paulo - Designer e Desenvolvedor Front End de Curitiba - Brasil">
-  <meta itemprop="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil.">
+  <meta itemprop="name" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
+  <meta itemprop="description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
   <meta itemprop="image" content="http://www.joaolabs.tk/img500x500.png">
 
   <!-- favicon-->
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- css -->
   <link rel="stylesheet" href="assets/css/style.css">
