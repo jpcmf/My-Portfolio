@@ -1,5 +1,5 @@
-<div class="content-all content-flex">
-  <div id="content-home" class="content-home">
+<div class="content-all">
+  <div id="contentHome" class="content-home">
     <h1>
       <span class="s-title">IT Front-end Developer and Designer</span>
     </h1>

@@ -162,6 +162,7 @@ $array_menu = array(
   </div>
 
   <!-- js -->
+  <script src="https://cdn.rawgit.com/GoogleChrome/pwacompat/v1.0.3/pwacompat.min.js"></script>
   <script src="assets/js/scripts.js"></script>
 
 </body>
