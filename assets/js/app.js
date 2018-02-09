@@ -1,74 +1,32 @@
-$(function() {
-
-	$("img.lazy").lazyload({
-			effect : "fadeIn"
-	});
-
-	// $('.navbar-toggle').click(function(){
-	// 	$(this).toggleClass('open');
-	// });
-
-});
-
-// funcoes
-function getWindowHeight() {
-	var windowHeight = 0;
-	if (typeof(window.innerHeight) == 'number') {
-		windowHeight = window.innerHeight;
-	}
-	else {
-		if (document.documentElement && document.documentElement.clientHeight) {
-			windowHeight = document.documentElement.clientHeight;
-		}
-		else {
-			if (document.body && document.body.clientHeight) {
-				windowHeight = document.body.clientHeight;
-			}
-		}
-	}
-	return windowHeight;
-}
-function setContent() {
-	if (document.getElementById) {
-		var windowHeight = getWindowHeight();
-		if (windowHeight > 0) {
-			var contentElement = document.getElementById('content');
-			var contentHeight = contentElement.offsetHeight;
-			if (windowHeight - contentHeight > 0) {
-				contentElement.style.position = 'relative';
-				contentElement.style.top = ((windowHeight / 2) - (contentHeight / 2)) + 'px';
-			}
-			else {
-				contentElement.style.position = 'static';
-			}
-		}
-	}
-}
+//app.js
 
 // method load
 $(window).load(function() {
 
-  // loading
+  // loading effect
   $(".loader").fadeOut(2000);
-
-  //
-  setContent();
 
 });
 
 // method ready
 $(document).ready(function(){
 
+	// lazyload plugin
+	$("img.lazy").lazyload({
+			effect : "fadeIn"
+	});
+
   // formulario
   $("#formSent").hide();
+
   $("#submit").click(function(){
-    $(".error").hide();
+
+		$(".error").hide();
+
     var hasError = false;
     var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
 
-    /**
-    * Bloco de validação
-    **/
+    // bloco de validação
     var assuntoVal = $(".formAssunto");
     if(assuntoVal.val() === '') {
       assuntoVal.attr('placeholder','Ops! Você esqueceu de preencher o assunto!');
@@ -96,8 +54,9 @@ $(document).ready(function(){
       hasError = true;
     }
 
-    // se n tem erros
+    // se nao tem erros
     if(hasError === false) {
+
       // esconde o btn de submit
       $(this).hide();
 
@@ -107,12 +66,13 @@ $(document).ready(function(){
         url: 'sendmail.php',
         data: { name: nameVal.val(), emailFrom: emailFromVal.val(), message: messageVal.val(), subject: assuntoVal.val() },
         success: 	function(data){
-          // desliza as paradas
+          // effects
           $("#formToSend").slideUp('slow');
           $("#formSent").slideDown('slow');
         },
         //dataType: dataType
       });
+
     }
 
     return false;
@@ -123,22 +83,6 @@ $(document).ready(function(){
   lightbox.option({
       'resizeDuration': 200,
       'wrapAround': true
-    })
-
+    });
 
 });
-
-// method resize
-$(window).resize(function() {
-
-  //
-  setContent();
-});
-
-
-// window.onload = function() {
-// 	setContent();
-// };
-// window.onresize = function() {
-// 	setContent();
-// };
