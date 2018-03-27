@@ -1,10 +1,5 @@
 //app.js
 
-if ('serviceWorker' in navigator) {
-  // sw.js can literally be empty, but must exist
-  navigator.serviceWorker.register('assets/js/sw.js');
-}
-
 // method ready
 $(document).ready(function(){
 

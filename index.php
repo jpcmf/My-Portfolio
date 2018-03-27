@@ -18,6 +18,7 @@ $array_menu = array(
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#6b6053">
 
   <title>João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil</title>
   <!-- <title>Desenvolvedor Front End e Designer Freelancer de Curitiba - Brasil</title> -->
@@ -38,27 +39,27 @@ $array_menu = array(
   <meta name="google-site-verification" content="BuuNIbzIxyitMc69-xgr7c-oIM3u05CpaWLfSuizcA8">
   <meta name="author" content="João Paulo Cordeiro de Meira Fricks">
   <meta name="Robots" content="all">
-  <link rel="canonical" href="http://www.joaolabs.tk">
+  <link rel="canonical" href="https://www.joaolabs.tk">
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="http://www.joaolabs.tk">
+  <meta name="twitter:url" content="https://www.joaolabs.tk">
   <meta name="twitter:title" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
   <meta name="twitter:description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
-  <meta name="twitter:image" content="http://www.joaolabs.tk/img500x500.png">
+  <meta name="twitter:image" content="https://www.joaolabs.tk/img500x500.png">
 
   <!-- facebook -->
   <meta property="fb:admins" content="">
-  <meta property="og:url" content="http://www.joaolabs.tk">
+  <meta property="og:url" content="https://www.joaolabs.tk">
   <meta property="og:title" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
-  <meta property="og:image" content="http://www.joaolabs.tk/img500x500.png">
+  <meta property="og:image" content="https://www.joaolabs.tk/img500x500.png">
   <meta property="og:site_name" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
   <meta property="og:description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
 
   <!-- google+ schema.org -->
   <meta itemprop="name" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
   <meta itemprop="description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
-  <meta itemprop="image" content="http://www.joaolabs.tk/img500x500.png">
+  <meta itemprop="image" content="https://www.joaolabs.tk/img500x500.png">
 
   <!-- favicon-->
   <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
@@ -71,7 +72,7 @@ $array_menu = array(
 
   <!-- css -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <link href="http://jasny.github.io/bootstrap/examples/navmenu-push/navmenu-push.css" rel="stylesheet">
+  <link href="https://jasny.github.io/bootstrap/examples/navmenu-push/navmenu-push.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -102,6 +103,14 @@ $array_menu = array(
     drift.load('t6w8hbfce4yc');
     </script>
     <!-- End of Async Drift Code -->
+    <!-- register SW -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js')
+        .then(reg => console.info('registered sw', reg))
+        .catch(err => console.error('error registering sw', err));
+      }
+    </script>
 </head>
 <body>
 
