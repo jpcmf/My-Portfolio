@@ -7,7 +7,7 @@ image: samueldebruyn/debian-git
 
 pipelines:
   custom: # Pipelines que podem ser chamadas manualmente
-    deployment-to-staging: # Bloco do deploy para ambiente de homologação ( desenvolvimento - staging )
+    deployment: # Bloco do deploy para ambiente de homologação ( desenvolvimento - staging )
       - step:
          script:
           - apt-get update
