@@ -7,8 +7,9 @@ image: samueldebruyn/debian-git
 
 pipelines:
   custom: # Pipelines que podem ser chamadas manualmente
-    deployment: # Bloco do deploy para ambiente de homologação ( desenvolvimento - staging )
+    deployment-to-prod: # Bloco do deploy para ambiente de produção ( production )
       - step:
+         deployment: production
          script:
           - apt-get update
           - apt-get -qq install git-ftp
