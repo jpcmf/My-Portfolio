@@ -1,9 +1,26 @@
+# This is a sample build configuration for PHP.
+# Check our guides at https://confluence.atlassian.com/x/VYk8Lw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
 image: samueldebruyn/debian-git
+
 pipelines:
-  default:
-    - step:
-        deployment: production
-        script:
+  custom: # Pipelines que podem ser chamadas manualmente
+    deployment-to-prod: # Bloco do deploy para ambiente de produção ( production )
+      - step:
+         deployment: production
+         script:
           - apt-get update
           - apt-get -qq install git-ftp
           - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://31.170.166.114/public_html/
+          
+#image: samueldebruyn/debian-git
+#pipelines:
+#  default:
+#    - step:
+#        deployment: production
+#        script:
+#          - apt-get update
+#          - apt-get -qq install git-ftp
+#          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://31.170.166.114/public_html/
