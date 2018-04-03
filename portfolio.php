@@ -20,7 +20,7 @@
             </a>
           </div>
           <div class="work-center">
-            <a class="btn bt-enviar-contato center-block" href="https://neodent.netlify.com" target="_blank" rel="noopener">Go</a>
+            <a class="btn bt-enviar-contato center-block" href="https://neodent.netlify.com" target="_blank" rel="noopener">Open</a>
           </div>
         </div>
       </li>

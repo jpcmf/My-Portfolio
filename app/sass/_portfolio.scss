@@ -50,15 +50,16 @@
         }
 
         .bt-enviar-contato {
+          display: none;
           margin-bottom: 0px;
         }
       }
 
-      // .lazy {
-      //   &:hover {
-      //     opacity: 0.8;
-      //   }
-      // }
+      .lazy {
+        &:hover {
+          opacity: 0.8;
+        }
+      }
 
       .panel {
         border: 1px solid yellow;
