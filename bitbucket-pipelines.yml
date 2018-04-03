@@ -7,14 +7,20 @@ image: samueldebruyn/debian-git
 
 pipelines:
   custom: # Pipelines que podem ser chamadas manualmente
-    deployment-to-staging: # Bloco do deploy para ambiente de homologação ( desenvolvimento - staging )
+    deployment-to-prod: # Bloco do deploy para ambiente de produção ( production )
       - step:
+         deployment: production
          script:
           - apt-get update
           - apt-get -qq install git-ftp
-          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://31.170.166.114
-  branches: # Pipelines que será executado no exáto momento que o Commit é feito no BitBuket
-    staging:  
-      - step:  
-         script:  
-          - echo "Aqui você pode habilitar tasks automaticas que serão executadas em cada commit feito."
+          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://31.170.166.114/public_html/
+          
+#image: samueldebruyn/debian-git
+#pipelines:
+#  default:
+#    - step:
+#        deployment: production
+#        script:
+#          - apt-get update
+#          - apt-get -qq install git-ftp
+#          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://31.170.166.114/public_html/
