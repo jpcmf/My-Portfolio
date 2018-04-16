@@ -96,16 +96,33 @@
         <div class="content-work contentContainer">
           <div class="work-center">
             <div class="progressBar">
-              <p class="text-center"><strong>Paradise Weekend</strong></p>
+              <p class="text-center"><strong>Hotsite Paradise Weekend</strong></p>
             </div>
           </div>
           <div class="work-center work-center__nopadding">
-            <a href="https://goo.gl/r5GRiW" target="_blank" rel="noopener" title="Showcase Paradise Weekend | Camarote Sapucaí 2014 - Portfolio João Paulo">
+            <a href="https://camaroteparadiseweekend2014-2.netlify.com/" target="_blank" rel="noopener" title="Showcase Paradise Weekend | Camarote Sapucaí 2014 - Portfolio João Paulo">
+              <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/site-pw2014-sapucai-2.png" alt="">
+            </a>
+          </div>
+          <div class="work-center">
+            <a class="btn bt-enviar-contato center-block" href="https://camaroteparadiseweekend2014-2.netlify.com/" target="_blank" rel="noopener">Open</a>
+          </div>
+        </div>
+      </li>
+      <li class="block-grid-item">
+        <div class="content-work contentContainer">
+          <div class="work-center">
+            <div class="progressBar">
+              <p class="text-center"><strong>Hotsite Paradise Weekend</strong></p>
+            </div>
+          </div>
+          <div class="work-center work-center__nopadding">
+            <a href="https://camaroteparadiseweekend2014.netlify.com/" target="_blank" rel="noopener" title="Showcase Paradise Weekend | Camarote Sapucaí 2014 - Portfolio João Paulo">
               <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/site-pw2014-sapucai.png" alt="">
             </a>
           </div>
           <div class="work-center">
-            <a class="btn bt-enviar-contato center-block" href="https://goo.gl/r5GRiW" target="_blank" rel="noopener">Open</a>
+            <a class="btn bt-enviar-contato center-block" href="https://camaroteparadiseweekend2014.netlify.com/" target="_blank" rel="noopener">Open</a>
           </div>
         </div>
       </li>
