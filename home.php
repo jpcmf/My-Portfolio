@@ -1,7 +1,7 @@
 <div class="content-all">
   <div id="contentHome" class="content-home">
     <h1>
-      <span class="s-title">IT Front-end Developer and Designer</span>
+      <span class="s-title">IT Front-end Developer && Designer</span>
     </h1>
     <ul class="social-list list-inline">
       <!-- <li class=""><a href="mailto:hire@fricks.com.br?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-envelope-o"></i></a></li> -->

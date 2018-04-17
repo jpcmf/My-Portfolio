@@ -211,12 +211,6 @@ h2.titulo-sec {
 // 5. Herença do navmenu-push.css e jasny-bootstrap.css
 // --------------------------------------------------
 
-// html,
-// body {
-//   margin:0;
-//   padding:0;
-// }
-
 html {
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
@@ -370,24 +364,25 @@ body {
 }
 
 .hide-content {
-  text-align:center;
+  text-align: center;
+
   p.nome {
     font-size: 18px;
   }
 
   img {
-    width:108px;
-    margin:40px 0 20px 0;
+    margin: 40px 0 10px 0;
+    width: 248px;
   }
 
   .navmenu-brand {
-    padding:5px 15px;
-    margin:0;
+    margin: 0;
+    padding: 5px 15px;
   }
 
   .navmenu-brand,
   p {
-    color:$white;
+    color: $white;
   }
 
   h2 {

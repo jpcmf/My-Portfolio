@@ -134,9 +134,9 @@ $array_menu = array(
     <div class="loader"></div>
     <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
       <div class="hide-content">
-        <a href="/"><img src="assets/images/profile.png" alt="João Paulo" class=""></a>
+        <a href="/"><img src="assets/images/logo.png" alt="</joãopaulo>"></a>
         <!-- <a class="navmenu-brand" href="index.php">João Paulo Fricks</a> -->
-        <p class="nome">João Paulo</p>
+        <!-- <p class="nome">João Paulo</p> -->
         <p class="funcao">IT Front-end Developer and Designer</p>
         <ul class="nav navmenu-nav">
           <?php foreach($array_menu as $key => $value): ?>
@@ -162,6 +162,7 @@ $array_menu = array(
       </button>
     </div> <!-- end -->
     <div class="center-row">
+      <img class="logo-joaopaulo" src="assets/images/logo.png" alt="</joãopaulo>">
       <div class="center-container">
         <div class="container-fluid" style="height:100%;">
           <?php

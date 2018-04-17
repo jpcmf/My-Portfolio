@@ -2,6 +2,20 @@
 // Home
 // --------------------------------------------------
 
+.center-row {
+  .logo-joaopaulo {
+    display: none;
+
+    @media only screen and (min-width : 992px) {
+      display: block;
+      position: absolute;
+      right: 40px;
+      top: 31px;
+      width: 150px;
+    }
+  }
+}
+
 .content-home {
   padding: 0;
   margin-top: -10%;
@@ -106,7 +120,7 @@
 
 @media only screen and (min-width : 768px) {
   .content-home {
-    padding: 0 0 0 10%;
+    // padding: 0 0 0 10%;
     margin-top: 0;
 
     h1,
@@ -139,5 +153,11 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  .content-home {
+    padding: 0 0 0 10%;
   }
 }

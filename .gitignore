@@ -1,11 +1,8 @@
 .DS_Store
-/.htaccess
+.gitignore
+__.htaccess
 /.sass-cache
-/vendor
 /node_modules
 /bower_components
-/app
-/robots.txt
-/sitemap.xml
 certificate.txt
 privatekey.txt
