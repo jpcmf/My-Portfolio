@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/github/license/LFeh/1500-translator.svg)](./license.md)
 
-This is my portfolio repository. This portfolio is too old and changed a lot over the years. You know - The shoemaker’s son always goes barefoot - Yes I have Googled. :)
+This is my portfolio repository. This portfolio is too old and changed a lot over the years. You know - The shoemaker’s son always goes barefoot - Yes I have Googled. 😊
 
 [View project](https://joaolabs.tk/)
 
