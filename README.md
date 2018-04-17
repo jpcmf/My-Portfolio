@@ -32,3 +32,5 @@ gulp watch
 # License
 
 MIT License © João Paulo C. M. Fricks
+
+Made with ❤ in Brazil
