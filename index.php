@@ -12,19 +12,16 @@ $array_menu = array(
 );
 ?>
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#6b6053">
 
   <title>João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil</title>
-  <!-- <title>Desenvolvedor Front End e Designer Freelancer de Curitiba - Brasil</title> -->
+  <meta name="description" content="Welcome to my portfolio. I am a IT Front-end Developer and Designer from Curitiba - Brazil">
   <!-- <meta name="keywords" content="desenvolvimento, desenvolvedor, designer, gráfico, programador, front-end, joão paulo cordeiro de meira fricks, freelancer, interface, web, portfolio, front end, curitiba, parana, brasil"> -->
-  <!-- <meta name="description" content="Portfolio de João Paulo Cordeiro de Meira Fricks. Designer Gráfico e Desenvolvedor Front End Freelancer de Curitiba - Brasil."> -->
-  <meta name="description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
 
   <!-- manifest -->
   <link rel="manifest" href="manifest.json">
@@ -68,17 +65,16 @@ $array_menu = array(
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
   <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#6b6053">
 
   <!-- css -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://jasny.github.io/bootstrap/examples/navmenu-push/navmenu-push.css" rel="stylesheet">
 
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+
   <!-- Start of Async Drift Code -->
   <script>
   !function() {
@@ -103,28 +99,36 @@ $array_menu = array(
     drift.load('t6w8hbfce4yc');
     </script>
     <!-- End of Async Drift Code -->
+
     <!-- register SW -->
     <script>
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js')
+        navigator.serviceWorker.register('assets/js/sw.js')
         .then(reg => console.info('registered sw', reg))
         .catch(err => console.error('error registering sw', err));
       }
+      // link to a image file
+      var iconUrl = 'https://www.seeklogo.net/wp-content/uploads/2014/10/Google-Chrome-logo-vector-download.png';
+
+      // create the <img> html element
+      // on first load it will request the image
+      // second time it will load it from cache directly thanks to the service worker
+      var imgElement = document.createElement('img');
+      imgElement.src = iconUrl;
     </script>
 </head>
 <body>
 
-    <!-- google analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <!-- google analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-1624952-19', 'auto');
-    ga('send', 'pageview');
-
-    </script>
+  ga('create', 'UA-1624952-19', 'auto');
+  ga('send', 'pageview');
+  </script>
 
   <div class="wrap">
     <div class="loader"></div>
@@ -134,7 +138,6 @@ $array_menu = array(
         <!-- <a class="navmenu-brand" href="index.php">João Paulo Fricks</a> -->
         <p class="nome">João Paulo</p>
         <p class="funcao">IT Front-end Developer and Designer</p>
-        <!-- <p class="funcao">Designer e Desenvolvedor Front End Freelancer</p> -->
         <ul class="nav navmenu-nav">
           <?php foreach($array_menu as $key => $value): ?>
             <?php $current = ($key == $page) ? "
@@ -178,12 +181,11 @@ $array_menu = array(
             include('home.php');
           }
           ?>
-        </div> <!-- container -->
+        </div>
       </div>
     </div> <!-- end -->
     <footer>
       <p>&copy; 2000 - 2018 - João Paulo <small>|</small> IT Front-end Developer and Designer <!-- <small>|</small> <a href="//www.joaolabs.tk">www.joaolabs.tk</a>--></p>
-      <!-- <p>&copy; 2000 - 2018 - João Paulo <small>|</small> Designer e Desenvolvedor Front End Freelancer <small>|</small> <a href="//www.joaolabs.tk">www.joaolabs.tk</a> </p> -->
       <ul class="list-inline">
         <?php foreach($array_menu as $key => $value): ?>
           <?php $current = ($key == $page) ? "

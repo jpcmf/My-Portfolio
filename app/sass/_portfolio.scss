@@ -23,8 +23,10 @@
         margin:0;
 
         p {
-          font-size:inherit;
-          font-weight:300;
+          display: none;
+          font-size: inherit;
+          font-weight: 400;
+          margin: 0;
         }
 
         .work-left {
@@ -42,10 +44,25 @@
 
         .work-center {
           @include make-xs-column(12);
-          padding-top: 30px;
+          padding-top: 10px;
 
           &.work-center__nopadding {
             padding-top: 0;
+          }
+        }
+
+        .progressBar {
+          margin-bottom: 10px;
+        }
+
+        a {
+          border: solid 1px #c1c1c1;
+          display: block;
+          opacity: 1;
+          transition: opacity 300ms ease;
+
+          &:hover {
+            opacity: 0.8;
           }
         }
 
@@ -55,11 +72,13 @@
         }
       }
 
-      .lazy {
-        &:hover {
-          opacity: 0.8;
-        }
-      }
+      // .lazy {
+      //   transition: opacity 300ms ease;
+      //   opacity: 1;
+      //   &:hover {
+      //     opacity: 0.8;
+      //   }
+      // }
 
       .panel {
         border: 1px solid yellow;
@@ -83,7 +102,7 @@
       li {
         .content-work {
           p {
-            font-size:16px;
+            font-size: 16px;
           }
         }
       }

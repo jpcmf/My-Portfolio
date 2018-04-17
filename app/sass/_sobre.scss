@@ -2,8 +2,10 @@
 // Sobre mim
 // --------------------------------------------------
 
-.content-sobre{
-  .info-sobre{
+.content-sobre {
+  .info-sobre {
+    position: relative;
+
     img{
       margin-bottom:30px;
     }
@@ -12,6 +14,11 @@
       color:black;
       font-weight:400;
       line-height:30px;
+      text-align: justify;
+
+      a {
+        color: $link-color;
+      }
     }
 
     h3{
@@ -109,3 +116,77 @@
 .value-90 { width: 90%; }
 
 .value-100 { width: 100%; }
+
+//
+// Language
+// --------------------------------------------------
+
+.lang-content {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.lang-menu {
+  width: 55px;
+  // height:auto;
+  position: absolute;
+  // top:30px;
+  right: 0;
+  border:1px solid rgba(255,255,255,0);
+  transition:all .3s ease;
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -o-transition:all .3s ease;
+  z-index: 100;
+  font-size: 30px;
+
+  div {
+    color:#fff;
+    background:rgba(255,255,255,.1);
+    // height:54px;
+    text-align: center;
+    padding: 5px 0;
+    border:1px solid rgba(255,255,255,.1);
+    // border-bottom:1px solid rgba(255,255,255,0);
+    transition:all .2s ease;
+    -webkit-transition:all .2s ease;
+    -moz-transition:all .2s ease;
+    -o-transition:all .2s ease;
+  }
+
+  ul {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    display:none;
+    text-align:center;
+
+    li {
+      padding:6px 0px;
+      transition:all .3s ease;
+      -webkit-transition:all .3s ease;
+      -moz-transition:all .3s ease;
+      -o-transition:all .3s ease;
+
+      &:hover {
+        cursor:pointer;
+        color:#fff;
+        background:rgba(255,255,255,.1);
+      }
+    }
+  }
+}
+
+.cls-border-lang {
+  border:1px solid rgba(255,255,255,.1) !important;
+}
+
+.cls-borderbottom-lang {
+  border-bottom:1px solid rgba(255,255,255,.1) !important;
+  opacity:.2;
+}
+
+.text-pt {
+  display: none;
+}

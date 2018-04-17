@@ -1,15 +1,26 @@
 // Portfolio
 // Autor (@jpcmf80)
 
-//
-// Google Fonts
+// --------------------------------------------------
+// 1. Google Fonts
+// 2. Variáveis Gerais
+// 3. Loading
+// 4. Estilos Gerais
+// 5. Herença do navmenu-push.css e jasny-bootstrap.css
+// 6. Off Canvas
+// 7. Mobile First Method
+// 8. Drift Widget
 // --------------------------------------------------
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+//
+// 1. Google Fonts
+// --------------------------------------------------
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
 //@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
 
 //
-// Variáveis Gerais
+// 2. Variáveis Gerais
 // --------------------------------------------------
 
 //
@@ -34,12 +45,12 @@ $bg-barra    : rgba(8, 102, 220, 0.2);
 $black       : #000;
 $footer-text : #6b6053;
 $in-barra    : rgba(8, 102, 220, 0.75);
-$link-color  : red;
+$link-color  : #6b6053;
 $link-hover  : #424a51;
 $main-color  : #2A213C;
 $main-text   : #6b6053;
 $white       : #FFF;
-
+$hr-title    : rgba(255,255,255,.1);
 
 //
 // size main content
@@ -48,7 +59,7 @@ $white       : #FFF;
 $main-max-width : 1400px;
 
 //
-// Loading
+// 3. Loading
 // --------------------------------------------------
 
 .loader {
@@ -63,7 +74,7 @@ $main-max-width : 1400px;
 }
 
 //
-// Estilos Gerais
+// 4. Estilos Gerais
 // --------------------------------------------------
 
 .wrap {
@@ -106,23 +117,25 @@ $main-max-width : 1400px;
 //
 
 hr.hr-interna {
-  margin-top:40px;
-  margin-bottom:40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 hr {
-  border-color: black;
+  border-color: $hr-title;
 }
 
 //
 // titulos
 //
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   color: black;
   font-weight: 600;
   margin: 0;
-  // text-align: center;
   span {
     display: block;
     text-align: center;
@@ -133,15 +146,14 @@ h1,h2,h3,h4 {
   padding: 40px 0 0;
 }
 
-.titulo,
-.sub-titulo {
-  text-align: center;
+.titulo {
+  text-align: left;
 }
 
-// .titulo {
-//   padding: 40px 0 0;
-//   margin: 0;
-// }
+.sub-titulo {
+  text-align: left;
+  padding-top: 20px;
+}
 
 .sub-titulo {
   font-weight: 300;
@@ -151,18 +163,9 @@ h1 {
   .s-title {
     padding-bottom: 10px;
   }
-
-  // .s-desc {
-  //   font-size:26px;
-  //   font-weight:300;
-  // }
 }
 
 h2 {
-  // .s-title {
-  //   font-size:50px;
-  // }
-
   .s-desc {
     font-weight: 300;
   }
@@ -205,14 +208,14 @@ h2.titulo-sec {
 }
 
 //
-// Herença do navmenu-push.css e jasny-bootstrap.css
-//
+// 5. Herença do navmenu-push.css e jasny-bootstrap.css
+// --------------------------------------------------
 
-html,
-body {
-  margin:0;
-  padding:0;
-}
+// html,
+// body {
+//   margin:0;
+//   padding:0;
+// }
 
 html {
   -ms-text-size-adjust:100%;
@@ -265,12 +268,6 @@ body {
     }
   }
 
-  // &:hover{
-  //   span{
-  //     background-color:darken($white,10%);
-  //   }
-  // }
-
   &.open {
     span {
       &:nth-child(1) {
@@ -312,7 +309,7 @@ body {
 
 @media (min-width: 0) {
   .navbar-toggle {
-    display: block; /* force showing the toggle */
+    display: block;
   }
 }
 
@@ -337,7 +334,7 @@ body {
 }
 
 //
-// Off Canvas
+// 6. Off Canvas
 // --------------------------------------------------
 
 .navmenu-default {
@@ -437,7 +434,9 @@ body {
   }
 }
 
-/*==========  Mobile First Method  ==========*/
+//
+// 7. Mobile First Method
+// --------------------------------------------------
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
@@ -474,3 +473,13 @@ body {
 
 /* Large Devices, Wide Screens */
 // @media only screen and (min-width : 1200px) {}
+
+//
+// 8. Drift Widget
+// --------------------------------------------------
+
+@media only screen and (min-width : 768px) {
+  #drift-widget {
+    bottom: 50px !important;
+  }
+}

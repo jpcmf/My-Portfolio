@@ -6,12 +6,12 @@
   "background_color": "#6b6053",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/?utm_source=homescreen",
+  "start_url": ".",
   "lang": "pt-BR",
   "orientation": "any",
   "icons": [
     {
-      "src": "assets/images/favicons/android-chrome-96x96.png",
+      "src": "assets/images/favicons/img512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
