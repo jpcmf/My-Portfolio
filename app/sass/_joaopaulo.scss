@@ -41,16 +41,22 @@ $open-sans     : 'Open Sans', sans-serif;
 // cores
 //
 
-$bg-barra    : rgba(8, 102, 220, 0.2);
-$black       : #000;
-$footer-text : #6b6053;
-$in-barra    : rgba(8, 102, 220, 0.75);
-$link-color  : #6b6053;
-$link-hover  : #424a51;
-$main-color  : #2A213C;
-$main-text   : #6b6053;
-$white       : #FFF;
-$hr-title    : rgba(255,255,255,.1);
+$bg-barra         : rgba(8, 102, 220, 0.2);
+$black            : #000;
+$footer-text      : #6b6053;
+$in-barra         : rgba(8, 102, 220, 0.75);
+$link-color       : #6b6053;
+$link-hover       : #424a51;
+$main-color       : #2A213C;
+$main-text        : #6b6053;
+$white            : #FFF;
+
+$hr-title         : rgba(255,255,255,.1);
+$btn-color-text   : #6b6053;
+$btn-border-color : #6b6053;
+$small-color-text : #6b6053;
+$bg-main-color    : #6b6053;
+$bg-main-color2   : #fff;
 
 //
 // size main content
@@ -76,6 +82,12 @@ $main-max-width : 1400px;
 //
 // 4. Estilos Gerais
 // --------------------------------------------------
+
+body {
+  background-attachment: fixed;
+  background-image: linear-gradient($bg-main-color, $bg-main-color2);
+  font-family: $open-sans;
+}
 
 .wrap {
   min-height: 100%;
@@ -183,45 +195,64 @@ h2.titulo-sec {
 
 .bt-enviar-contato {
   background: transparent;
-  border-radius: 0px;
-  border: 2px solid black;
-  color: black;
-  font-size: 14px;
-  font-weight: 700;
-  height: 48px;
-  line-height: 42px;
-  margin: 0 auto;
-  padding: 2px 4px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: all .3s;
+  border-radius: 0;
+  border: 1px solid $btn-border-color;
+  color: $btn-color-text;
+  font-weight: 400;
+  opacity: 1;
+  padding: 13px 4px;
+  transition: opacity 300ms ease;
   width: 200px;
   z-index: 3;
 
   &:hover,
   &:active,
   &:focus {
-    border-color: lighten($black,50%);
-    color: lighten($black,50%);
+    color: $btn-color-text;
+    opacity: 0.7;
   }
+}
 
+.btn-basic {
+  border-radius: 0;
+  border: 1px solid $btn-border-color;
+  color: $btn-color-text;
+  font-weight: 400;
+  opacity: 1;
+  padding: 13px 4px;
+  transition: opacity 300ms ease;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $btn-color-text;
+    opacity: 0.7;
+  }
+}
+
+.btn-hire {
+  border-radius: 0;
+  border: 1px solid $btn-border-color;
+  color: $btn-color-text;
+  font-weight: 400;
+  margin-top: 35px;
+  opacity: 1;
+  padding: 13px 4px;
+  position: relative;
+  text-align: center;
+  transition: opacity 300ms ease;
+  width: 200px;
+  z-index: 3;
+
+  &:hover {
+    color: $btn-color-text;
+    opacity: 0.7;
+  }
 }
 
 //
 // 5. Herença do navmenu-push.css e jasny-bootstrap.css
 // --------------------------------------------------
-
-html {
-  -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100%;
-  font-size: 100%;
-}
-
-body {
-  background-attachment: fixed;
-  background-image: linear-gradient(#6b6053, #fff);
-  font-family:$open-sans;
-}
 
 .navbar-toggle {
   border:0;

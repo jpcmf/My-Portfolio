@@ -23,7 +23,7 @@
       <span class="label label-skill">Graphic Design</span>
       <span class="label label-skill">Wordpress</span>
     </div>
-    <a href="index.php?page=contato" class="btn bt-hire">
+    <a href="index.php?page=contato" class="btn btn-hire">
       <i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Hire me
     </a>
   </div>

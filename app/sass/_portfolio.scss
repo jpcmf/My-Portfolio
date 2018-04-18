@@ -23,7 +23,6 @@
         margin:0;
 
         p {
-          display: none;
           font-size: inherit;
           font-weight: 400;
           margin: 0;
@@ -55,20 +54,21 @@
           margin-bottom: 10px;
         }
 
-        a {
-          border: solid 1px #c1c1c1;
+        small {
+          color: $small-color-text;
           display: block;
-          opacity: 1;
-          transition: opacity 300ms ease;
-
-          &:hover {
-            opacity: 0.8;
-          }
+          margin-bottom: 10px;
         }
 
-        .bt-enviar-contato {
-          display: none;
-          margin-bottom: 0px;
+        .portfolio-img {
+          display: block;
+          height: 218px;
+          overflow: hidden;
+        }
+
+        .btn-basic {
+          margin-bottom: 20px;
+          margin-top: 20px;
         }
       }
 

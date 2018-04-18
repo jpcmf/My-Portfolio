@@ -4,24 +4,25 @@
       <div class="col-xs-12 col-md-10 col-md-offset-1">
         <div class="g-titulo">
           <h1 class="titulo">Portfolio</h1>
-          <h3 class="sub-titulo">Github projects</h3>
+          <h3 class="sub-titulo">Labs</h3>
         </div>
         <hr class="hr-interna">
-        <ul class="block-grid-xs-1 block-grid-sm-2 block-grid-md-4 portfolio-list" style="display:flex;">
+        <ul class="block-grid-xs-1 block-grid-sm-2 block-grid-md-3 portfolio-list" style="display:flex;">
           <li class="block-grid-item">
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Calculator JavaScript</p>
+                  <small>Abril 2018</small>
+                  <p>Calculator JavaScript</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
-                <a class="" href="https://github.com/jpcmf/Calculator-Pure-Javascript" target="_blank" rel="noopener" title="Calculator JavaScript - Portfolio João Paulo">
+                <a class="portfolio-img" href="https://github.com/jpcmf/Calculator-Pure-Javascript" target="_blank" rel="noopener" title="Calculator JavaScript - Portfolio João Paulo">
                   <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/project-calculator.png" alt="Calculator JavaScript">
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://github.com/jpcmf/Calculator-Pure-Javascript" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://github.com/jpcmf/Calculator-Pure-Javascript" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -31,12 +32,13 @@
           <h3 class="sub-titulo">Front-end Development</h3>
         </div>
         <hr class="hr-interna">
-        <ul class="block-grid-xs-1 block-grid-sm-2 block-grid-md-4 portfolio-list" style="display:flex;">
+        <ul class="block-grid-xs-1 block-grid-sm-2 block-grid-md-3 portfolio-list" style="display:flex;">
           <li class="block-grid-item">
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Landing Page Neodent 2017</p>
+                  <small>Junho 2017</small>
+                  <p>Landing Page Neodent</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -45,7 +47,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://neodent.netlify.com" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://neodent.netlify.com" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -53,7 +55,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Kibo Sushi Restaurant</p>
+                  <small>Agosto 2016</small>
+                  <p>Kibo Sushi Restaurant</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -62,7 +65,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://goo.gl/jbehXd" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://goo.gl/jbehXd" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -70,7 +73,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Estúdio Udes</p>
+                  <small>Agosto 2016</small>
+                  <p>Estúdio Udes</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -79,7 +83,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://goo.gl/zJW824" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://goo.gl/zJW824" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -87,7 +91,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Colortil</p>
+                  <small>Julho 2015</small>
+                  <p>Colortil</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -96,7 +101,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://goo.gl/HS5gYY" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://goo.gl/HS5gYY" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -104,7 +109,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Paradise Weekend</p>
+                  <small>Janeiro 2014</small>
+                  <p>Paradise Weekend</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -113,7 +119,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://goo.gl/r5GRiW" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://goo.gl/r5GRiW" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -121,7 +127,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Hotsite Paradise Weekend</p>
+                  <small>Janeiro 2014</small>
+                  <p>Hotsite Paradise Weekend</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -130,7 +137,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://camaroteparadiseweekend2014-2.netlify.com/" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://camaroteparadiseweekend2014-2.netlify.com/" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -138,7 +145,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Hotsite Paradise Weekend</p>
+                  <small>Janeiro 2014</small>
+                  <p>Hotsite Paradise Weekend</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -147,7 +155,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://camaroteparadiseweekend2014.netlify.com/" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://camaroteparadiseweekend2014.netlify.com/" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -155,7 +163,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">You Move – Curso de Inglês</p>
+                  <small>Janeiro 2014</small>
+                  <p>You Move – Curso de Inglês</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -164,7 +173,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://goo.gl/UtjvYv" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://goo.gl/UtjvYv" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -172,7 +181,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Paradise Weekend</p>
+                  <small>Janeiro 2013</small>
+                  <p>Paradise Weekend</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -181,7 +191,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://goo.gl/dAchhu" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://goo.gl/dAchhu" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -189,7 +199,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">SOUNDS of Maquinaria</p>
+                  <small>Janeiro 2012</small>
+                  <p>SOUNDS of Maquinaria</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -198,7 +209,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://goo.gl/fXxGDD" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://goo.gl/fXxGDD" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -206,7 +217,8 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
-                  <p class="text-center">Ideioteca</p>
+                  <small>Janeiro 2012</small>
+                  <p>Ideioteca</p>
                 </div>
               </div>
               <div class="work-center work-center__nopadding">
@@ -215,7 +227,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="https://goo.gl/vUfKNd" target="_blank" rel="noopener">Open</a>
+                <a class="btn btn-basic center-block" href="https://goo.gl/vUfKNd" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
@@ -224,24 +236,52 @@
           <h3 class="sub-titulo">Press</h3>
         </div>
         <hr class="hr-interna">
-        <ul class="block-grid-xs-1 block-grid-sm-2 portfolio-list" style="display:flex;">
+        <ul class="block-grid-xs-1 block-grid-sm-3 portfolio-list" style="display:flex;">
           <li class="block-grid-item">
             <div class="content-work contentContainer">
               <div class="work-center">
-                <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-karenteixeira.jpg" alt="">
+                <div class="progressBar">
+                  <small>Abril 2018</small>
+                  <p>Compacto Records</p>
+                </div>
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block" href="assets/images/portfolio/card-karenteixeira.jpg" data-lightbox="image-1" data-title="Cartão de visita">Open</a>
+                <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-joaopaulo.jpg" alt="">
+              </div>
+              <div class="work-center">
+                <a class="btn btn-basic center-block" href="assets/images/portfolio/card-joaopaulo.jpg" data-lightbox="image-1" data-title="Cartão de visita">view the project</a>
               </div>
             </div>
           </li>
           <li class="block-grid-item">
             <div class="content-work contentContainer">
               <div class="work-center">
+                <div class="progressBar">
+                  <small>Setembro 2016</small>
+                  <p>DJ Joao Paulo</p>
+                </div>
+              </div>
+              <div class="work-center">
                 <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-joaopaulo.jpg" alt="">
               </div>
               <div class="work-center">
-                <a class="btn bt-enviar-contato center-block"href="assets/images/portfolio/card-joaopaulo.jpg" data-lightbox="image-2" data-title="Cartão de visita">Open</a>
+                <a class="btn btn-basic center-block"href="assets/images/portfolio/card-joaopaulo.jpg" data-lightbox="image-2" data-title="Cartão de visita">view the project</a>
+              </div>
+            </div>
+          </li>
+          <li class="block-grid-item">
+            <div class="content-work contentContainer">
+              <div class="work-center">
+                <div class="progressBar">
+                  <small>Setembro 2016</small>
+                  <p>Psicóloga Karen Teixeira</p>
+                </div>
+              </div>
+              <div class="work-center">
+                <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-karenteixeira.jpg" alt="">
+              </div>
+              <div class="work-center">
+                <a class="btn btn-basic center-block" href="assets/images/portfolio/card-karenteixeira.jpg" data-lightbox="image-3" data-title="Cartão de visita">view the project</a>
               </div>
             </div>
           </li>

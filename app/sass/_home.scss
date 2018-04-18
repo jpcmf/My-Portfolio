@@ -52,29 +52,6 @@
     margin: 10px 0;
   }
 
-  .bt-hire {
-    border-radius: 0px;
-    border: 2px solid black;
-    color: black;
-    font-size: 14px;
-    font-weight: 700;
-    height: 48px;
-    line-height: 42px;
-    margin-top: 35px;
-    padding: 2px 4px;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    transition: all .3s;
-    width: 200px;
-    z-index: 3;
-
-    &:hover {
-      border-color: lighten($black,50%);
-      color: lighten($black,50%);
-    }
-  }
-
   .group-skills {
     margin-top: 20px;
 
@@ -120,7 +97,6 @@
 
 @media only screen and (min-width : 768px) {
   .content-home {
-    // padding: 0 0 0 10%;
     margin-top: 0;
 
     h1,
