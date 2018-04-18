@@ -4,7 +4,7 @@
       <div class="col-xs-12 col-md-10 col-md-offset-1">
         <div class="g-titulo">
           <h1 class="titulo">About</h1>
-          <h4 class="sub-titulo">Um pouco da minha experiência</h4>
+          <!-- <h3 class="sub-titulo">Um pouco da minha experiência</h3> -->
         </div>
         <hr class="hr-interna">
         <div class="info-sobre">
