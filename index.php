@@ -137,7 +137,7 @@ $array_menu = array(
         <a href="/"><img src="assets/images/logo.png" alt="</joãopaulo>"></a>
         <!-- <a class="navmenu-brand" href="index.php">João Paulo Fricks</a> -->
         <!-- <p class="nome">João Paulo</p> -->
-        <p class="funcao">IT Front-end Developer and Designer</p>
+        <p class="funcao">IT Front-end Developer && Designer</p>
         <ul class="nav navmenu-nav">
           <?php foreach($array_menu as $key => $value): ?>
             <?php $current = ($key == $page) ? "

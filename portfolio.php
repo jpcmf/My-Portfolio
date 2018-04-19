@@ -13,6 +13,24 @@
               <div class="work-center">
                 <div class="progressBar">
                   <small>Abril 2018</small>
+                  <p>Random Names</p>
+                </div>
+              </div>
+              <div class="work-center work-center__nopadding">
+                <a class="portfolio-img" href="https://github.com/jpcmf/Calculator-Pure-Javascript" target="_blank" rel="noopener" title="Random Names - Portfolio João Paulo">
+                  <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/project-random.png" alt="Calculator JavaScript">
+                </a>
+              </div>
+              <div class="work-center">
+                <a class="btn btn-basic center-block" href="https://github.com/jpcmf/Random-Names-JavaScript" target="_blank" rel="noopener">view the project</a>
+              </div>
+            </div>
+          </li>
+          <li class="block-grid-item">
+            <div class="content-work contentContainer">
+              <div class="work-center">
+                <div class="progressBar">
+                  <small>Abril 2018</small>
                   <p>Calculator JavaScript</p>
                 </div>
               </div>
