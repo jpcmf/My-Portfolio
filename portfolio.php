@@ -55,6 +55,24 @@
             <div class="content-work contentContainer">
               <div class="work-center">
                 <div class="progressBar">
+                  <small>Maio 2018</small>
+                  <p>EBANX - Carreiras</p>
+                </div>
+              </div>
+              <div class="work-center work-center__nopadding">
+                <a class="" href="https://ebanx.netlify.com" target="_blank" rel="noopener" title="Showcase EBANX - Carreiras - Portfolio João Paulo">
+                  <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/site-ebanx-may2018.png" alt="Showcase EBANX - Carreiras">
+                </a>
+              </div>
+              <div class="work-center">
+                <a class="btn btn-basic center-block" href="https://neodent.netlify.com" target="_blank" rel="noopener">view the project</a>
+              </div>
+            </div>
+          </li>
+          <li class="block-grid-item">
+            <div class="content-work contentContainer">
+              <div class="work-center">
+                <div class="progressBar">
                   <small>Junho 2017</small>
                   <p>Landing Page Neodent</p>
                 </div>
