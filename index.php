@@ -19,8 +19,8 @@ $array_menu = array(
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil</title>
-  <meta name="description" content="Welcome to my portfolio. I am a IT Front-end Developer and Designer from Curitiba - Brazil">
+  <title>João Paulo | UI Designer and Front-end Developer from Curitiba - Brazil</title>
+  <meta name="description" content="Welcome to my portfolio. I am a UI Designer and Front-end Developer from Curitiba - Brazil">
   <!-- <meta name="keywords" content="desenvolvimento, desenvolvedor, designer, gráfico, programador, front-end, joão paulo cordeiro de meira fricks, freelancer, interface, web, portfolio, front end, curitiba, parana, brasil"> -->
 
   <!-- manifest -->
@@ -28,8 +28,8 @@ $array_menu = array(
 
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="João Paulo | IT Front-end Developer and Designer">
-  <meta name="apple-mobile-web-app-title" content="João Paulo | IT Front-end Developer and Designer">
+  <meta name="application-name" content="João Paulo | UI Designer and Front-end Developer">
+  <meta name="apple-mobile-web-app-title" content="João Paulo | UI Designer and Front-end Developer">
   <meta name="msapplication-starturl" content="/index.php">
 
   <!-- google -->
@@ -41,21 +41,21 @@ $array_menu = array(
   <!-- twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="https://www.joaolabs.tk">
-  <meta name="twitter:title" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
-  <meta name="twitter:description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
+  <meta name="twitter:title" content="João Paulo | UI Designer and Front-end Developer from Curitiba - Brazil">
+  <meta name="twitter:description" content="UI Designer and Front-end Developer from Curitiba - Brazil">
   <meta name="twitter:image" content="https://www.joaolabs.tk/img500x500.png">
 
   <!-- facebook -->
   <meta property="fb:admins" content="">
   <meta property="og:url" content="https://www.joaolabs.tk">
-  <meta property="og:title" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
+  <meta property="og:title" content="João Paulo | UI Designer and Front-end Developer from Curitiba - Brazil">
   <meta property="og:image" content="https://www.joaolabs.tk/img500x500.png">
-  <meta property="og:site_name" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
-  <meta property="og:description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
+  <meta property="og:site_name" content="João Paulo | UI Designer and Front-end Developer from Curitiba - Brazil">
+  <meta property="og:description" content="UI Designer and Front-end Developer from Curitiba - Brazil">
 
   <!-- google+ schema.org -->
-  <meta itemprop="name" content="João Paulo | IT Front-end Developer and Designer from Curitiba - Brazil">
-  <meta itemprop="description" content="IT Front-end Developer and Designer from Curitiba - Brazil">
+  <meta itemprop="name" content="João Paulo | UI Designer and Front-end Developer from Curitiba - Brazil">
+  <meta itemprop="description" content="UI Designer and Front-end Developer from Curitiba - Brazil">
   <meta itemprop="image" content="https://www.joaolabs.tk/img500x500.png">
 
   <!-- favicon-->
@@ -137,7 +137,7 @@ $array_menu = array(
         <a href="/"><img src="assets/images/logo.png" alt="</joãopaulo>"></a>
         <!-- <a class="navmenu-brand" href="index.php">João Paulo Fricks</a> -->
         <!-- <p class="nome">João Paulo</p> -->
-        <p class="funcao">IT Front-end Developer && Designer</p>
+        <p class="funcao">UI Designer and Front-end Developer</p>
         <ul class="nav navmenu-nav">
           <?php foreach($array_menu as $key => $value): ?>
             <?php $current = ($key == $page) ? "
@@ -162,7 +162,6 @@ $array_menu = array(
       </button>
     </div> <!-- end -->
     <div class="center-row">
-      <img class="logo-joaopaulo" src="assets/images/logo.png" alt="</joãopaulo>">
       <div class="center-container">
         <div class="container-fluid" style="height:100%;">
           <?php
@@ -186,7 +185,7 @@ $array_menu = array(
       </div>
     </div> <!-- end -->
     <footer>
-      <p>&copy; 2000 - 2018 - João Paulo <small>|</small> IT Front-end Developer and Designer <!-- <small>|</small> <a href="//www.joaolabs.tk">www.joaolabs.tk</a>--></p>
+      <p>&copy; 2000 - 2018 - João Paulo <small>|</small> UI Designer and Front-end Developer <!-- <small>|</small> <a href="//www.joaolabs.tk">www.joaolabs.tk</a>--></p>
       <ul class="list-inline">
         <?php foreach($array_menu as $key => $value): ?>
           <?php $current = ($key == $page) ? "

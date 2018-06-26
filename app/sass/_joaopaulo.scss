@@ -56,7 +56,7 @@ $btn-color-text   : #6b6053;
 $btn-border-color : #6b6053;
 $small-color-text : #6b6053;
 $bg-main-color    : #6b6053;
-$bg-main-color2   : #fff;
+$bg-main-color2   : #dadada;
 
 //
 // size main content
@@ -237,11 +237,11 @@ h2.titulo-sec {
   font-weight: 400;
   margin-top: 35px;
   opacity: 1;
-  padding: 13px 4px;
+  // padding: 13px 4px;
   position: relative;
   text-align: center;
   transition: opacity 300ms ease;
-  width: 200px;
+  // width: 200px;
   z-index: 3;
 
   &:hover {

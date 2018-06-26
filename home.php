@@ -1,7 +1,8 @@
 <div class="content-all">
   <div id="contentHome" class="content-home">
     <h1>
-      <span class="s-title">IT Front-end Developer && Designer</span>
+      <img class="logo-joaopaulo" src="assets/images/logo.png" alt="</joãopaulo>">
+      <span class="s-title">UI Designer and Front-end Developer</span>
     </h1>
     <ul class="social-list list-inline">
       <!-- <li class=""><a href="mailto:hire@fricks.com.br?subject=Olá João Paulo Fricks" target="_blank"><i class="fa fa-envelope-o"></i></a></li> -->
@@ -23,8 +24,8 @@
       <span class="label label-skill">Graphic Design</span>
       <span class="label label-skill">Wordpress</span>
     </div>
-    <a href="index.php?page=contato" class="btn btn-hire">
+    <!-- <a href="index.php?page=contato" class="btn btn-hire">
       <i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Hire me
-    </a>
+    </a> -->
   </div>
 </div>

@@ -2,19 +2,19 @@
 // Home
 // --------------------------------------------------
 
-.center-row {
-  .logo-joaopaulo {
-    display: none;
-
-    @media only screen and (min-width : 992px) {
-      display: block;
-      position: absolute;
-      right: 40px;
-      top: 31px;
-      width: 150px;
-    }
-  }
-}
+// .center-row {
+//   .logo-joaopaulo {
+//     display: none;
+//
+//     @media only screen and (min-width : 992px) {
+//       display: block;
+//       position: absolute;
+//       right: 40px;
+//       top: 31px;
+//       width: 150px;
+//     }
+//   }
+// }
 
 .content-home {
   padding: 0;
@@ -31,10 +31,22 @@
   }
 
   h1 {
+    margin-bottom: 30px;
+
     .s-title {
+      color: #fff;
+      display: block;
       font-size: 26px;
-      display: inline-block;
-      border-bottom: 1px solid black;
+      text-align: center;
+      // display: inline-block;
+      // border-bottom: 1px solid black;
+    }
+
+    img {
+      display: block;
+      max-width: 535px;
+      margin: 0 auto 15px;
+      width: 100%;
     }
   }
 
@@ -56,15 +68,15 @@
     margin-top: 20px;
 
     .label.label-skill {
-      border: 1px solid $main-text;
-      color: $main-text;
+      border: 1px solid #fff;
+      color: #fff;
       display: inline-block;
     }
   }
 
   .social-list {
     display: table;
-    margin: 20px 0 0;
+    margin: 20px auto 0;
 
     li {
       padding:0 5px;
@@ -72,7 +84,7 @@
 
       a {
         @include transition(color .3s ease);
-        color: $main-text;
+        color: #fff;
         font-size: 12px;
         font-weight: 300px;
 
@@ -98,6 +110,7 @@
 @media only screen and (min-width : 768px) {
   .content-home {
     margin-top: 0;
+    text-align: center;
 
     h1,
     h2 {
@@ -109,7 +122,8 @@
 
     h1 {
       .s-title {
-        font-size: 45px;
+        // font-size: 45px;
+        font-size: 29px;
       }
     }
 
@@ -134,6 +148,6 @@
 
 @media only screen and (min-width : 992px) {
   .content-home {
-    padding: 0 0 0 10%;
+    // padding: 0 0 0 10%;
   }
 }

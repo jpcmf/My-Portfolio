@@ -65,7 +65,7 @@
                 </a>
               </div>
               <div class="work-center">
-                <a class="btn btn-basic center-block" href="https://neodent.netlify.com" target="_blank" rel="noopener">view the project</a>
+                <a class="btn btn-basic center-block" href="https://ebanx.netlify.com" target="_blank" rel="noopener">view the project</a>
               </div>
             </div>
           </li>
