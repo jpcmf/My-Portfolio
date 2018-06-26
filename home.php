@@ -11,14 +11,15 @@
       <li class=""><a href="//github.com/jpcmf" target="_blank"><i class="fa fa-github-alt"></i>&nbsp; Github</a></li>
       <li class=""><a href="//pt.stackoverflow.com/users/8050/jpcmf80" target="_blank"><i class="fa fa-stack-overflow"></i>&nbsp; StackOverflow</a></li>
     </ul>
-    <div class="group-skills">
+    <div class="group-skills hidden-xs">
       <span class="label label-skill">HTML/CSS</span>
       <span class="label label-skill">SASS</span>
       <span class="label label-skill">LESS</span>
       <span class="label label-skill">Bootstrap</span>
       <span class="label label-skill">Foundation</span>
       <span class="label label-skill">jQuery</span>
-      <span class="label label-skill">JavaScript</span>
+      <span class="label label-skill">JavaScript</span> <br>
+      <span class="label label-skill">User Interface</span>
       <span class="label label-skill">Web Design</span>
       <span class="label label-skill">Responsive Design</span>
       <span class="label label-skill">Graphic Design</span>
