@@ -282,10 +282,10 @@
                 </div>
               </div>
               <div class="work-center">
-                <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-joaopaulo.jpg" alt="">
+                <img class="img-responsive lazy" width="1000" height="594" data-original="assets/images/portfolio/card-compactorecords.jpg" alt="">
               </div>
               <div class="work-center">
-                <a class="btn btn-basic center-block" href="assets/images/portfolio/card-joaopaulo.jpg" data-lightbox="image-1" data-title="Cartão de visita">view the project</a>
+                <a class="btn btn-basic center-block" href="assets/images/portfolio/card-compactorecords.jpg" data-lightbox="image-1" data-title="Cartão de visita">view the project</a>
               </div>
             </div>
           </li>

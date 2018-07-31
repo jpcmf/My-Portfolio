@@ -43,20 +43,21 @@ $open-sans     : 'Open Sans', sans-serif;
 
 $bg-barra         : rgba(8, 102, 220, 0.2);
 $black            : #000;
-$footer-text      : #6b6053;
+$footer-text      : #fff;
 $in-barra         : rgba(8, 102, 220, 0.75);
-$link-color       : #6b6053;
+$link-color       : #0170ff;
 $link-hover       : #424a51;
 $main-color       : #2A213C;
-$main-text        : #6b6053;
+$main-text        : #fff;
 $white            : #FFF;
 
 $hr-title         : rgba(255,255,255,.1);
-$btn-color-text   : #6b6053;
-$btn-border-color : #6b6053;
-$small-color-text : #6b6053;
-$bg-main-color    : #6b6053;
-$bg-main-color2   : #dadada;
+$btn-color-text   : #fff;
+$btn-border-color : #fff;
+$small-color-text : #fff;
+$bg-main-color    : #0960c5;
+$bg-main-color2   : #0960c5;
+$progress-bar-bg: #0170ff;
 
 //
 // size main content
@@ -69,7 +70,7 @@ $main-max-width : 1400px;
 // --------------------------------------------------
 
 .loader {
-  background:url("../images/loading.gif") 50% 50% no-repeat white;
+  background:url("../images/loading.gif") 50% 50% no-repeat $bg-main-color;
   height:100%;
   left:0px;
   overflow:hidden;
@@ -145,7 +146,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: black;
+  color: $white;
   font-weight: 600;
   margin: 0;
   span {
